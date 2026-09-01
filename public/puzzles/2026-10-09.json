@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-09",
+  "sourceGameDate": "2025-07-13",
+  "pitches": [
+    {
+      "id": "2025-07-13-4317",
+      "pitcher": "Y. Cano",
+      "pitchType": "Sinker",
+      "velo": 93.4,
+      "px": 0.036,
+      "pz": 3.101,
+      "szTop": 3.239,
+      "szBot": 1.645,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the top of the zone by 3.1 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-07-13-63",
+      "pitcher": "L. Gilbert",
+      "pitchType": "Slider",
+      "velo": 87.4,
+      "px": -0.754,
+      "pz": 2.314,
+      "szTop": 3.355,
+      "szBot": 1.585,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-1, 1 out",
+      "note": "Caught the outside corner by 0.9 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-07-13-2525",
+      "pitcher": "J. Irvin",
+      "pitchType": "Slider",
+      "velo": 83.3,
+      "px": -1.004,
+      "pz": 2.378,
+      "szTop": 3.358,
+      "szBot": 1.764,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "3-2, 1 out",
+      "note": "Missed the outside corner by 2.1 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-07-13-1632",
+      "pitcher": "B. Bello",
+      "pitchType": "Sweeper",
+      "velo": 86.1,
+      "px": 0.718,
+      "pz": 1.186,
+      "szTop": 3.48,
+      "szBot": 1.592,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-0, 2 outs",
+      "note": "Missed the bottom of the zone by 3.4 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-07-13-2650",
+      "pitcher": "N. Eovaldi",
+      "pitchType": "Curveball",
+      "velo": 74.6,
+      "px": -0.578,
+      "pz": 2.967,
+      "szTop": 3.523,
+      "szBot": 1.74,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the outside corner by 3.0 in. Both had it a strike.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-11",
+  "sourceGameDate": "2025-06-05",
+  "pitches": [
+    {
+      "id": "2025-06-05-3071",
+      "pitcher": "B. Woo",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.5,
+      "px": -0.536,
+      "pz": 3.517,
+      "szTop": 3.719,
+      "szBot": 1.788,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Caught the outside corner by 3.5 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-06-05-1470",
+      "pitcher": "A. Zerpa",
+      "pitchType": "Sinker",
+      "velo": 97.0,
+      "px": 0.265,
+      "pz": 3.354,
+      "szTop": 3.525,
+      "szBot": 1.725,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the top of the zone by 3.5 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-06-05-2760",
+      "pitcher": "D. Pomeranz",
+      "pitchType": "Knuckle Curve",
+      "velo": 83.9,
+      "px": 0.883,
+      "pz": 2.742,
+      "szTop": 3.768,
+      "szBot": 1.83,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-1, 2 outs",
+      "note": "Missed the inside corner by 0.6 in. Both had it a ball.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-06-05-629",
+      "pitcher": "J. Leiter",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.9,
+      "px": 0.774,
+      "pz": 1.61,
+      "szTop": 3.271,
+      "szBot": 1.538,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "2-2, 0 outs",
+      "note": "Caught the inside corner by 0.7 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-06-05-449",
+      "pitcher": "D. Cease",
+      "pitchType": "4-Seam Fastball",
+      "velo": 96.1,
+      "px": 0.704,
+      "pz": 1.835,
+      "szTop": 3.396,
+      "szBot": 1.616,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the outside corner by 1.5 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    }
+  ]
+}

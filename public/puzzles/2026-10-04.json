@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-04",
+  "sourceGameDate": "2025-07-20",
+  "pitches": [
+    {
+      "id": "2025-07-20-3938",
+      "pitcher": "J. Lucchesi",
+      "pitchType": "4-Seam Fastball",
+      "velo": 93.6,
+      "px": -0.76,
+      "pz": 2.228,
+      "szTop": 3.13,
+      "szBot": 1.539,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "2-1, 0 outs",
+      "note": "Caught the inside corner by 0.8 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-20-3025",
+      "pitcher": "K. Yates",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.6,
+      "px": 0.987,
+      "pz": 3.587,
+      "szTop": 3.303,
+      "szBot": 1.586,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-2, 2 outs",
+      "note": "Missed the top of the zone by 2.0 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-20-1702",
+      "pitcher": "C. Horton",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.4,
+      "px": -0.438,
+      "pz": 1.392,
+      "szTop": 3.384,
+      "szBot": 1.666,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-1, 2 outs",
+      "note": "Missed the bottom of the zone by 1.8 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-20-788",
+      "pitcher": "J. Ryan",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.5,
+      "px": 0.735,
+      "pz": 2.366,
+      "szTop": 3.507,
+      "szBot": 1.64,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-2, 0 outs",
+      "note": "Caught the outside corner by 1.1 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-20-2330",
+      "pitcher": "C. Gibson",
+      "pitchType": "Curveball",
+      "velo": 80.0,
+      "px": -0.358,
+      "pz": 1.264,
+      "szTop": 3.339,
+      "szBot": 1.487,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "2-1, 2 outs",
+      "note": "Missed the bottom of the zone by 1.2 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-03",
+  "sourceGameDate": "2025-04-26",
+  "pitches": [
+    {
+      "id": "2025-04-26-3669",
+      "pitcher": "N. Murdock",
+      "pitchType": "Sinker",
+      "velo": 95.5,
+      "px": 0.278,
+      "pz": 3.367,
+      "szTop": 3.347,
+      "szBot": 1.479,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "2-0, 0 outs",
+      "note": "Caught the top of the zone by 1.2 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-04-26-1326",
+      "pitcher": "B. Lord",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.2,
+      "px": -0.883,
+      "pz": 3.306,
+      "szTop": 3.212,
+      "szBot": 1.524,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-1, 1 out",
+      "note": "Missed the outside corner by 0.6 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-04-26-2422",
+      "pitcher": "E. Salazar",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.6,
+      "px": 1.144,
+      "pz": 3.883,
+      "szTop": 3.69,
+      "szBot": 1.677,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "2-2, 1 out",
+      "note": "Missed the inside corner by 3.8 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-04-26-282",
+      "pitcher": "W. Buehler",
+      "pitchType": "4-Seam Fastball",
+      "velo": 91.5,
+      "px": -1.151,
+      "pz": 3.793,
+      "szTop": 3.433,
+      "szBot": 1.456,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the inside corner by 3.9 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-04-26-3050",
+      "pitcher": "C. Morton",
+      "pitchType": "Curveball",
+      "velo": 80.3,
+      "px": -0.322,
+      "pz": 1.503,
+      "szTop": 3.441,
+      "szBot": 1.573,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-1, 0 outs",
+      "note": "Caught the bottom of the zone by 0.6 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    }
+  ]
+}

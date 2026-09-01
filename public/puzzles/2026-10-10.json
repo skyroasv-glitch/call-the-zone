@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-10",
+  "sourceGameDate": "2025-09-07",
+  "pitches": [
+    {
+      "id": "2025-09-07-3404",
+      "pitcher": "T. Walker",
+      "pitchType": "Slider",
+      "velo": 81.6,
+      "px": 1.015,
+      "pz": 1.86,
+      "szTop": 3.404,
+      "szBot": 1.542,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 1 out",
+      "note": "Missed the outside corner by 2.2 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-09-07-3813",
+      "pitcher": "L. Peralta",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.5,
+      "px": 1.038,
+      "pz": 2.189,
+      "szTop": 3.284,
+      "szBot": 1.571,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-0, 2 outs",
+      "note": "Missed the inside corner by 2.5 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-09-07-2119",
+      "pitcher": "S. Gray",
+      "pitchType": "Sinker",
+      "velo": 91.2,
+      "px": 1.023,
+      "pz": 2.772,
+      "szTop": 3.37,
+      "szBot": 1.567,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the outside corner by 2.3 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-09-07-2190",
+      "pitcher": "J. Wentz",
+      "pitchType": "4-Seam Fastball",
+      "velo": 92.8,
+      "px": -0.645,
+      "pz": 2.186,
+      "szTop": 3.312,
+      "szBot": 1.593,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the outside corner by 2.2 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-09-07-2066",
+      "pitcher": "S. Gray",
+      "pitchType": "Cutter",
+      "velo": 87.0,
+      "px": 1.001,
+      "pz": 1.487,
+      "szTop": 3.193,
+      "szBot": 1.464,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-1, 0 outs",
+      "note": "Missed the outside corner by 2.1 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.4,
+        "curve": -0.7
+      }
+    }
+  ]
+}

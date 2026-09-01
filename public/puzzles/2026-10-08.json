@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-08",
+  "sourceGameDate": "2025-09-25",
+  "pitches": [
+    {
+      "id": "2025-09-25-2206",
+      "pitcher": "S. Dom\u00ednguez",
+      "pitchType": "4-Seam Fastball",
+      "velo": 96.1,
+      "px": -0.259,
+      "pz": 3.471,
+      "szTop": 3.53,
+      "szBot": 1.612,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "1-0, 1 out",
+      "note": "Caught the top of the zone by 2.2 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-09-25-1719",
+      "pitcher": "J. Webb",
+      "pitchType": "Sweeper",
+      "velo": 80.8,
+      "px": 0.68,
+      "pz": 2.286,
+      "szTop": 4.008,
+      "szBot": 1.847,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the outside corner by 1.8 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-09-25-58",
+      "pitcher": "Y. Yamamoto",
+      "pitchType": "Sinker",
+      "velo": 96.1,
+      "px": 0.05,
+      "pz": 1.621,
+      "szTop": 3.31,
+      "szBot": 1.443,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "2-2, 1 out",
+      "note": "Caught the bottom of the zone by 3.6 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-09-25-3368",
+      "pitcher": "L. Peralta",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.3,
+      "px": -0.556,
+      "pz": 2.564,
+      "szTop": 3.173,
+      "szBot": 1.62,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the outside corner by 3.3 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-09-25-3347",
+      "pitcher": "J. Scholtens",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.8,
+      "px": -1.169,
+      "pz": 2.54,
+      "szTop": 3.799,
+      "szBot": 1.849,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Missed the outside corner by 4.1 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    }
+  ]
+}
