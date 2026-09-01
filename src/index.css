@@ -685,6 +685,67 @@ button {
   letter-spacing: 0.04em;
 }
 
+/* ----------------------------- streak strip ------------------------------ */
+.strip { display: grid; gap: 9px; }
+.strip-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.strip-head h2 {
+  margin: 0;
+  font-family: var(--head);
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--amber);
+}
+.strip-head span {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.strip-row {
+  display: grid;
+  /* Capped rather than 1fr: stretched across a desktop the cells turn into
+     tiles that outweigh everything else on the page. They still shrink. */
+  grid-template-columns: repeat(14, minmax(0, 40px));
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.strip-day {
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border-radius: 5px;
+  border: 1px solid var(--line);
+  /* An unplayed day is a hole in the run, and should look like one. */
+  background: transparent;
+}
+.strip-day.done { border-color: transparent; }
+.strip-day.today { outline: 2px solid var(--amber); outline-offset: 1px; }
+
+.strip-score {
+  font-family: var(--head);
+  font-size: 12px;
+  line-height: 1;
+  color: #0d141b;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 .home-links {
   display: flex;
   justify-content: center;
@@ -757,67 +818,12 @@ button {
   .home { gap: 20px; padding: 28px 16px 24px; }
   .home-title { font-size: clamp(40px, 12vw, 54px); }
   .home-rule { margin-top: 20px; }
-  /* ------------------------------- uniforms -------------------------------- */
-.skins { display: grid; gap: 10px; }
-.skins-head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
-.skins-head h2 {
-  margin: 0;
-  font-family: var(--head);
-  font-size: 13px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--amber);
-}
-.skins-head p {
-  margin: 0;
-  font-family: var(--mono);
-  font-size: 11px;
-  color: var(--muted);
-}
+  /* Six chips only fit while there is room for their names to sit on one line. */
+  .skin-row { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .strip-row { gap: 4px; }
+  .strip-score { font-size: 10px; }
 
-.skin-row {
-  display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 8px;
-}
-.skin-chip {
-  display: grid;
-  justify-items: center;
-  gap: 6px;
-  padding: 9px 6px 8px;
-  border-radius: 10px;
-  border: 1px solid var(--line);
-  background: var(--ink-2);
-  transition: border-color 0.15s ease, background 0.15s ease, transform 0.1s ease;
-}
-.skin-chip:hover { background: var(--ink-3); transform: translateY(-1px); }
-.skin-chip.on { border-color: var(--amber); background: var(--ink-3); }
-
-/* a little jersey-over-pants figure rather than a flat colour dot */
-.skin-swatch {
-  position: relative;
-  width: 26px;
-  height: 34px;
-  display: grid;
-  grid-template-rows: 18px 10px 6px;
-  border-radius: 4px;
-  overflow: hidden;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.35);
-}
-.sw-jersey { position: relative; }
-.sw-stripes { position: absolute; inset: 0; }
-.sw-collar { position: absolute; top: 0; left: 0; right: 0; height: 2px; }
-.skin-name {
-  font-family: var(--mono);
-  font-size: 9.5px;
-  letter-spacing: 0.04em;
-  color: var(--muted);
-  text-align: center;
-  line-height: 1.2;
-}
-.skin-chip.on .skin-name { color: var(--text); }
-
-.home-stats { gap: 18px; }
+  .home-stats { gap: 18px; }
   .matchup-data { margin-left: 0; width: 100%; }
   .calls { grid-template-columns: 1fr; }
   .final { font-size: 34px; }

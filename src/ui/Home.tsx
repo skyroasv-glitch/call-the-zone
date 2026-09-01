@@ -1,6 +1,7 @@
 import type { SaveState } from "../game/storage";
 import { todayKey } from "../game/daily";
 import { SkinPicker } from "./SkinPicker";
+import { StreakStrip } from "./StreakStrip";
 
 const LONG_DATE = new Intl.DateTimeFormat(undefined, {
   weekday: "long", month: "long", day: "numeric",
@@ -72,6 +73,8 @@ export function Home({ save, onDaily, onInfinite, onWarmup, onPickSkin }: {
       </div>
 
       <SkinPicker skinId={save.skinId} onPick={onPickSkin} />
+
+      <StreakStrip save={save} />
 
       <div className="home-stats">
         <div><b>{save.streak}</b>day streak</div>
