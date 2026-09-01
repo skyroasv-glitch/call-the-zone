@@ -80,6 +80,12 @@ export function Home({ save, onDaily, onInfinite, onWarmup, onPickSkin }: {
         <div><b>{save.pitchesSeen}</b>endless pitches</div>
       </div>
 
+      <nav className="home-links" aria-label="Site">
+        <a href="/about">About</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/credits">Credits</a>
+      </nav>
+
       <p className="home-note">
         Space throws · <kbd>B</kbd> / <kbd>S</kbd> calls it · <kbd>R</kbd> replays · scroll to zoom.
       </p>

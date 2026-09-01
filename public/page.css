@@ -1,0 +1,169 @@
+/*
+ * Shared styling for the static pages (about, privacy, credits).
+ *
+ * These are plain HTML in public/ rather than routes in the app: they carry no
+ * game state, they should render if the 3D bundle never loads, and they stay
+ * crawlable and linkable. That means this file duplicates a little of
+ * src/index.css by design — the app's stylesheet is bundled and hashed, and
+ * pointing at it from here would break on every rebuild.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap");
+
+:root {
+  --ink: #0a1119;
+  --ink-2: #101a25;
+  --line: #23313f;
+  --text: #e8eef4;
+  --muted: #8ca0b3;
+  --amber: #f2b134;
+  --green: #4f9a63;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+  --head: "Oswald", var(--sans);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0 20px 64px;
+  background: var(--ink);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap { max-width: 680px; margin: 0 auto; }
+
+header.top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 0 18px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid var(--line);
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-family: var(--head);
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--text);
+}
+.brand span { color: var(--amber); }
+
+nav.top-nav {
+  display: flex;
+  gap: 16px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+nav.top-nav a { color: var(--muted); text-decoration: none; }
+nav.top-nav a:hover, nav.top-nav a[aria-current] { color: var(--amber); }
+
+h1 {
+  font-family: var(--head);
+  font-weight: 600;
+  font-size: clamp(28px, 6vw, 40px);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0 0 6px;
+}
+
+.updated {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin: 0 0 30px;
+}
+
+h2 {
+  font-family: var(--head);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin: 34px 0 10px;
+}
+
+p { margin: 0 0 14px; }
+a { color: var(--text); text-underline-offset: 3px; }
+a:hover { color: var(--amber); }
+
+ul { margin: 0 0 14px; padding-left: 20px; }
+li { margin-bottom: 7px; }
+
+strong { font-weight: 600; }
+
+code, .mono {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--amber);
+}
+
+.note {
+  background: var(--ink-2);
+  border-left: 3px solid var(--line);
+  border-radius: 0 8px 8px 0;
+  padding: 14px 16px;
+  margin: 0 0 18px;
+  font-size: 14px;
+}
+.note.flag { border-left-color: var(--amber); }
+.note p:last-child { margin-bottom: 0; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 18px;
+  font-size: 14px;
+}
+th, td {
+  text-align: left;
+  padding: 9px 10px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+th {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 500;
+}
+td .mono { color: var(--text); }
+
+footer.bottom {
+  margin-top: 48px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  font-family: var(--mono);
+  font-size: 11px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+footer.bottom a { color: var(--muted); }
+
+.back-link {
+  display: inline-block;
+  margin-top: 26px;
+  font-family: var(--head);
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--amber);
+  text-decoration: none;
+}

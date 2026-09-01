@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy · Call the Zone</title>
+    <meta name="description" content="Call the Zone stores your streak on your own device and collects nothing about you." />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/page.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="top">
+        <a class="brand" href="/">Call the <span>Zone</span></a>
+        <nav class="top-nav">
+          <a href="/about">About</a>
+          <a href="/privacy" aria-current="page">Privacy</a>
+          <a href="/credits">Credits</a>
+        </nav>
+      </header>
+
+      <h1>Privacy</h1>
+      <p class="updated">Last updated 1 September 2026</p>
+
+      <div class="note">
+        <p>
+          There are no accounts, no cookies, no analytics and no tracking of any
+          kind. Nothing you do here is sent anywhere or recorded about you. Your
+          streak lives in your own browser and never leaves it.
+        </p>
+      </div>
+
+      <h2>What is stored, and where</h2>
+      <p>
+        The game keeps one entry in your browser's <strong>localStorage</strong>,
+        under the key <code>call-the-zone/v1</code>. It stays on the device you
+        played on. It is not transmitted, backed up, or readable by anyone else,
+        and there is no server holding a copy.
+      </p>
+      <table>
+        <thead>
+          <tr><th>Stored</th><th>What it is</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="mono">streak, maxStreak, played, lastPlayed</td><td>Your daily streak and how many days you have finished.</td></tr>
+          <tr><td class="mono">history</td><td>Per day: the date, your score, and which of the five you got right.</td></tr>
+          <tr><td class="mono">bestRun, runsPlayed, pitchesSeen</td><td>Endless-mode totals.</td></tr>
+          <tr><td class="mono">skinId, muted, introSeen</td><td>Chosen uniform, sound setting, and whether you have seen the how-to-play card.</td></tr>
+        </tbody>
+      </table>
+      <p>
+        That is the whole list. There is no name, no email, no device
+        fingerprint, and no identifier of any kind — the save cannot be tied back
+        to a person, because nothing in it identifies one.
+      </p>
+
+      <h2>Deleting it</h2>
+      <p>
+        Clearing site data for this domain in your browser erases the save
+        completely and immediately. There is nothing else to delete and nobody to
+        ask, because no copy exists anywhere else.
+      </p>
+
+      <h2>Other parties</h2>
+      <ul>
+        <li>
+          <strong>Vercel</strong> hosts the site. Like any web host, its servers
+          process the normal request information — IP address, browser user
+          agent, which files were requested — in order to serve pages and guard
+          against abuse. That is Vercel's processing, covered by
+          <a href="https://vercel.com/legal/privacy-policy" rel="noopener noreferrer" target="_blank">their privacy policy</a>.
+        </li>
+        <li>
+          <strong>Google Fonts</strong> serves the two typefaces. Loading a font
+          discloses your IP address to Google, as any third-party asset does.
+          This is the only external request the site makes.
+        </li>
+      </ul>
+      <p>
+        Everything else — the pitch data, the 3D models, the game itself — is
+        served from this domain.
+      </p>
+
+      <h2>Sharing your score</h2>
+      <p>
+        The share button builds the result text locally and hands it to your
+        device's own share sheet or clipboard. Nothing is uploaded; where it goes
+        next is entirely your choice.
+      </p>
+
+      <h2>Children</h2>
+      <p>
+        The game is suitable for all ages. Since it collects nothing from anyone,
+        it collects nothing from children either.
+      </p>
+
+      <h2>Changes</h2>
+      <p>
+        If this ever changes — if analytics or accounts are added — this page
+        will say so, with a new date at the top, before it takes effect.
+      </p>
+
+      <a class="back-link" href="/">← Back to the plate</a>
+
+      <footer class="bottom">
+        Not affiliated with, endorsed by, or sponsored by Major League Baseball
+        or any club.
+        <br />
+        <a href="/about">About</a> · <a href="/privacy">Privacy</a> · <a href="/credits">Credits</a>
+      </footer>
+    </div>
+  </body>
+</html>

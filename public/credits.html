@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Credits · Call the Zone</title>
+    <meta name="description" content="Data, models, fonts and libraries behind Call the Zone." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/page.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="top">
+        <a class="brand" href="/">Call the <span>Zone</span></a>
+        <nav class="top-nav">
+          <a href="/about">About</a>
+          <a href="/privacy">Privacy</a>
+          <a href="/credits" aria-current="page">Credits</a>
+        </nav>
+      </header>
+
+      <h1>Credits</h1>
+      <p class="updated">Everything this game is built out of</p>
+
+      <h2>Pitch data</h2>
+      <p>
+        Pitch locations, velocities, strike-zone tops and bottoms, and the
+        umpire's recorded call all come from public Statcast pitch tracking,
+        published through
+        <a href="https://baseballsavant.mlb.com" rel="noopener noreferrer" target="_blank">Baseball Savant</a>
+        (MLB Advanced Media). Data is retrieved with
+        <a href="https://github.com/jldbc/pybaseball" rel="noopener noreferrer" target="_blank">pybaseball</a>.
+      </p>
+      <div class="note flag">
+        <p>
+          Independent project. Not affiliated with, endorsed by, or sponsored by
+          Major League Baseball, any club, or any player. Player names appear
+          only as factual description of publicly reported pitches.
+        </p>
+      </div>
+
+      <h2>3D models</h2>
+      <ul>
+        <li>
+          <strong>Player mannequin</strong> — the Universal Animation Library
+          figure by
+          <a href="https://quaternius.com" rel="noopener noreferrer" target="_blank">Quaternius</a>,
+          released under
+          <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="noopener noreferrer" target="_blank">CC0 1.0</a>
+          (public domain). Its 43 animation clips are stripped out and unused —
+          every pose in the game is solved from code — which takes it from 7.6 MB
+          to 0.62 MB.
+        </li>
+        <li>
+          <strong>Bat</strong> — a 33-inch wooden bat from a third-party
+          <em>Baseball Bats</em> asset pack, converted and re-textured for this
+          project. Full attribution for this pack is being confirmed and will be
+          listed here.
+        </li>
+      </ul>
+      <p>
+        Everything else on the field — the stadium, the plate, the dirt, the
+        caps, helmets and the catcher's mask — is generated from code, not
+        modelled.
+      </p>
+
+      <h2>Typefaces</h2>
+      <ul>
+        <li><strong>Oswald</strong> by Vernon Adams and contributors — SIL Open Font License.</li>
+        <li><strong>IBM Plex Sans</strong> and <strong>IBM Plex Mono</strong> by IBM — SIL Open Font License.</li>
+      </ul>
+
+      <h2>Software</h2>
+      <ul>
+        <li><a href="https://threejs.org" rel="noopener noreferrer" target="_blank">three.js</a> — MIT</li>
+        <li><a href="https://github.com/pmndrs/react-three-fiber" rel="noopener noreferrer" target="_blank">React Three Fiber</a> and <a href="https://github.com/pmndrs/drei" rel="noopener noreferrer" target="_blank">drei</a> — MIT</li>
+        <li><a href="https://react.dev" rel="noopener noreferrer" target="_blank">React</a> — MIT</li>
+        <li><a href="https://github.com/pmndrs/zustand" rel="noopener noreferrer" target="_blank">Zustand</a> — MIT</li>
+        <li><a href="https://vite.dev" rel="noopener noreferrer" target="_blank">Vite</a> — MIT</li>
+      </ul>
+
+      <h2>Uniforms</h2>
+      <p>
+        The kits are original colourways, not any club's marks. No team logos,
+        wordmarks or insignia are used anywhere in the game.
+      </p>
+
+      <a class="back-link" href="/">← Back to the plate</a>
+
+      <footer class="bottom">
+        <a href="/about">About</a> · <a href="/privacy">Privacy</a> · <a href="/credits">Credits</a>
+      </footer>
+    </div>
+  </body>
+</html>

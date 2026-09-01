@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About · Call the Zone</title>
+    <meta name="description" content="How Call the Zone decides a ball from a strike, where the pitches come from, and why the umpire and the rulebook disagree." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/page.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="top">
+        <a class="brand" href="/">Call the <span>Zone</span></a>
+        <nav class="top-nav">
+          <a href="/about" aria-current="page">About</a>
+          <a href="/privacy">Privacy</a>
+          <a href="/credits">Credits</a>
+        </nav>
+      </header>
+
+      <h1>About</h1>
+      <p class="updated">A daily ball-or-strike game built on real pitches</p>
+
+      <p>
+        Every day you get five genuinely borderline pitches, rebuilt in 3D from
+        real tracking data. You watch each one from behind the plate and call it.
+        Then the game reveals two answers: what the <strong>rulebook zone</strong>
+        says, and what the <strong>human umpire actually called</strong> that day.
+      </p>
+      <p>
+        You are scored against the rulebook. The interest lives in the pitches
+        where the two disagree — and on a set chosen for closeness, that is
+        roughly two of every five.
+      </p>
+
+      <h2>How a call is decided</h2>
+      <p>
+        One formula decides every call, and the same constants are used by the
+        data pipeline and by the game:
+      </p>
+      <div class="note">
+        <p class="mono">
+          strike ⟺ |plate_x| ≤ 0.708 + 0.121<br />
+          and sz_bot − 0.121 ≤ plate_z ≤ sz_top + 0.121
+        </p>
+      </div>
+      <p>
+        0.708 ft is half of the 17-inch plate. 0.121 ft is a baseball's radius.
+        Any part of the ball over any part of the zone is a strike, which is why
+        every edge is padded by one radius. The top and bottom of the zone come
+        from the batter's own stance, measured per pitch — that is why the box
+        moves from hitter to hitter.
+      </p>
+      <p>
+        What you see is what is judged. The ball follows a path that lands
+        exactly on the recorded crossing point, and the white box is drawn at the
+        true plate width with the ball at its true size — so a ball that looks
+        like it is touching the line really is a strike.
+      </p>
+
+      <h2>Why the umpire disagrees</h2>
+      <p>
+        The rulebook zone is a geometric box. A human behind the plate is judging
+        a 95 mph pitch in a fraction of a second, from a crouch, with a catcher
+        moving in front of them. Framing, count, and where the catcher receives
+        the ball all shift real calls. The disagreements are not umpire errors so
+        much as the gap between a measured box and a human judgement — which is
+        the whole argument automated strike zones exist to settle.
+      </p>
+
+      <h2>The two modes</h2>
+      <ul>
+        <li>
+          <strong>Today's Five</strong> — the daily puzzle. Everyone gets the
+          same five pitches, and it turns over at your local midnight. Finishing
+          it keeps your day streak alive.
+        </li>
+        <li>
+          <strong>Endless Zone</strong> — pitch after pitch, shuffled from the
+          whole archive, with five seconds to call each one. The clock starts
+          when the ball reaches the plate, never before, so it is timing your
+          judgement rather than your hardware.
+        </li>
+      </ul>
+
+      <h2>Controls</h2>
+      <p class="mono">
+        Space throws · B / S calls it · R replays · Enter advances · Esc returns
+        to the menu
+      </p>
+      <p>
+        The camera stays behind the catcher, where an umpire stands. You can zoom
+        along that sightline but not orbit off it: reading the ball against the
+        plate from the side turns a judgement call into a geometry problem, and
+        it is not a view anyone calling a real pitch ever gets.
+      </p>
+
+      <h2>Where the pitches come from</h2>
+      <p>
+        Pitches are drawn from public Statcast pitch tracking published through
+        Baseball Savant. Only <em>taken</em> pitches are used — called strikes
+        and balls — because a swing has no umpire call to argue with. From those,
+        the game keeps pitches that sit close to an edge but not so close that
+        the call is invisible, then aims for about two umpire-versus-rulebook
+        disagreements per day.
+      </p>
+
+      <div class="note flag">
+        <p>
+          This is an independent project. It is not affiliated with, endorsed by,
+          or sponsored by Major League Baseball, any club, or any player. Player
+          names appear only as factual description of publicly reported pitches.
+        </p>
+      </div>
+
+      <a class="back-link" href="/">← Back to the plate</a>
+
+      <footer class="bottom">
+        <a href="/about">About</a> · <a href="/privacy">Privacy</a> · <a href="/credits">Credits</a>
+      </footer>
+    </div>
+  </body>
+</html>

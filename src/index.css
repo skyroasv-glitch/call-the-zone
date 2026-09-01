@@ -685,6 +685,18 @@ button {
   letter-spacing: 0.04em;
 }
 
+.home-links {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.home-links a { color: var(--muted); text-decoration: none; }
+.home-links a:hover { color: var(--amber); }
+
 .home-note {
   margin: 0;
   text-align: center;
