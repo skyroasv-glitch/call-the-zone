@@ -26,3 +26,4 @@ dist-ssr
 # Python pipeline
 data-pipeline/.venv/
 data-pipeline/__pycache__/
+.vercel

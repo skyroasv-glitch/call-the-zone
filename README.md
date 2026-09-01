@@ -47,6 +47,23 @@ The strike zone stays hidden until you've made your call. It reappears on the
 reveal, and again on the results screen with all five pitches plotted against
 one reference zone.
 
+## Hosting
+
+Deployed on Vercel; `vercel.json` carries the cache rules, which are the part
+worth understanding (JSON allows no comments, so they are written down here):
+
+| path | rule | why |
+| --- | --- | --- |
+| `/assets/*` | `immutable`, 1 year | Vite content-hashes these, so the name changes whenever the bytes do. |
+| `/puzzles/*.json` | `max-age=0, must-revalidate` | The daily flips at each player's **local** midnight. A cached copy serves yesterday's five. Revalidation is a 304, so it is nearly free. |
+| `/models/*` | `max-age=0, must-revalidate` | Served under fixed names, so they can never be immutable — a new model would never reach anyone holding the old one. |
+| `/` | `max-age=0, must-revalidate` | The entry point names the current chunk hashes. Stale HTML is exactly what leaves a tab asking for a chunk that no longer exists. |
+
+There is deliberately **no SPA catch-all rewrite**. Rewriting misses to
+`index.html` would turn every absent puzzle file into a 200 serving HTML, and
+the loader's content-type check exists precisely because a dev server does that.
+Missing files must 404 for the fallback to work.
+
 ## When something breaks
 
 `src/ui/ErrorBoundary.tsx` wraps the scene and, as a backstop, the whole app.
