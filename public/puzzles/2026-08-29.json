@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-29",
+  "sourceGameDate": "2025-08-25",
+  "pitches": [
+    {
+      "id": "2025-08-25-1211",
+      "pitcher": "E. Rodriguez",
+      "pitchType": "Changeup",
+      "velo": 87.1,
+      "px": 0.063,
+      "pz": 1.417,
+      "szTop": 3.361,
+      "szBot": 1.704,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-1, 0 outs",
+      "note": "Missed the bottom of the zone by 2.0 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-08-25-429",
+      "pitcher": "J. Soriano",
+      "pitchType": "4-Seam Fastball",
+      "velo": 96.6,
+      "px": -0.665,
+      "pz": 2.516,
+      "szTop": 3.332,
+      "szBot": 1.493,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the outside corner by 2.0 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-25-1994",
+      "pitcher": "S. Smith",
+      "pitchType": "4-Seam Fastball",
+      "velo": 96.4,
+      "px": 0.491,
+      "pz": 1.34,
+      "szTop": 3.178,
+      "szBot": 1.322,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-1, 2 outs",
+      "note": "Caught the bottom of the zone by 1.7 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-25-1339",
+      "pitcher": "J. Oviedo",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.8,
+      "px": -0.696,
+      "pz": 3.404,
+      "szTop": 3.426,
+      "szBot": 1.641,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-0, 1 out",
+      "note": "Caught the outside corner by 1.6 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-25-349",
+      "pitcher": "C. Schlittler",
+      "pitchType": "4-Seam Fastball",
+      "velo": 97.5,
+      "px": 0.604,
+      "pz": 2.764,
+      "szTop": 3.22,
+      "szBot": 1.45,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the outside corner by 2.7 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-22",
+  "sourceGameDate": "2025-07-04",
+  "pitches": [
+    {
+      "id": "2025-07-04-83",
+      "pitcher": "A. Senzatela",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.7,
+      "px": 0.587,
+      "pz": 3.532,
+      "szTop": 3.62,
+      "szBot": 1.694,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "1-1, 1 out",
+      "note": "Caught the top of the zone by 2.5 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-04-1615",
+      "pitcher": "K. Bubic",
+      "pitchType": "4-Seam Fastball",
+      "velo": 90.4,
+      "px": 0.56,
+      "pz": 3.487,
+      "szTop": 3.653,
+      "szBot": 1.748,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "3-0, 0 outs",
+      "note": "Caught the outside corner by 3.2 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-04-159",
+      "pitcher": "S. Strider",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.8,
+      "px": 0.464,
+      "pz": 1.483,
+      "szTop": 3.563,
+      "szBot": 1.717,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 1 out",
+      "note": "Missed the bottom of the zone by 1.4 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-04-3482",
+      "pitcher": "E. Rodriguez",
+      "pitchType": "4-Seam Fastball",
+      "velo": 92.3,
+      "px": -0.512,
+      "pz": 1.38,
+      "szTop": 3.636,
+      "szBot": 1.671,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-0, 0 outs",
+      "note": "Missed the bottom of the zone by 2.0 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-04-4101",
+      "pitcher": "E. Salazar",
+      "pitchType": "4-Seam Fastball",
+      "velo": 97.1,
+      "px": 0.923,
+      "pz": 3.792,
+      "szTop": 3.604,
+      "szBot": 1.516,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Missed the inside corner by 1.1 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-07",
+  "sourceGameDate": "2025-08-16",
+  "pitches": [
+    {
+      "id": "2025-08-16-612",
+      "pitcher": "A. Houser",
+      "pitchType": "Sinker",
+      "velo": 93.9,
+      "px": -0.952,
+      "pz": 3.197,
+      "szTop": 3.349,
+      "szBot": 1.554,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Missed the inside corner by 1.5 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-08-16-1354",
+      "pitcher": "T. Anderson",
+      "pitchType": "Changeup",
+      "velo": 78.8,
+      "px": -0.343,
+      "pz": 1.444,
+      "szTop": 3.265,
+      "szBot": 1.427,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-0, 0 outs",
+      "note": "Caught the bottom of the zone by 1.7 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-08-16-3914",
+      "pitcher": "J. Hill",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.8,
+      "px": 0.201,
+      "pz": 3.336,
+      "szTop": 3.31,
+      "szBot": 1.384,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 1 out",
+      "note": "Caught the top of the zone by 1.1 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-16-3573",
+      "pitcher": "N. McLean",
+      "pitchType": "4-Seam Fastball",
+      "velo": 97.0,
+      "px": -1.095,
+      "pz": 3.962,
+      "szTop": 3.639,
+      "szBot": 1.815,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "2-1, 1 out",
+      "note": "Missed the outside corner by 3.2 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-16-3076",
+      "pitcher": "L. Morales",
+      "pitchType": "Sweeper",
+      "velo": 83.9,
+      "px": 0.083,
+      "pz": 3.555,
+      "szTop": 3.354,
+      "szBot": 1.459,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-1, 1 out",
+      "note": "Missed the top of the zone by 1.0 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    }
+  ]
+}

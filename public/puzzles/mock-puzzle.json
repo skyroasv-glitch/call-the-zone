@@ -1,0 +1,196 @@
+{
+  "date": "mock",
+  "note": "Placeholder pitches with fictional pitchers. Replace with generated files from /data-pipeline.",
+  "pitches": [
+    {
+      "id": "m1",
+      "pitcher": "R. Vasquez",
+      "pitchType": "Slider",
+      "velo": 87.4,
+      "px": -0.92,
+      "pz": 2.1,
+      "szTop": 3.42,
+      "szBot": 1.62,
+      "hand": "R",
+      "umpCall": "strike",
+      "situation": "3-2, 2 out, bases loaded",
+      "note": "A full inch off the outer edge \u2014 and it ended the inning.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      },
+      "stand": "R"
+    },
+    {
+      "id": "m2",
+      "pitcher": "D. Whitlock",
+      "pitchType": "4-Seam Fastball",
+      "velo": 97.1,
+      "px": 0.3,
+      "pz": 3.62,
+      "szTop": 3.4,
+      "szBot": 1.58,
+      "hand": "R",
+      "umpCall": "ball",
+      "situation": "0-2, 1 out",
+      "note": "Letter-high heat that cleared the top. Nobody argued.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      },
+      "stand": "L"
+    },
+    {
+      "id": "m3",
+      "pitcher": "A. Moreau",
+      "pitchType": "Sinker",
+      "velo": 93.8,
+      "px": 0.74,
+      "pz": 2.05,
+      "szTop": 3.35,
+      "szBot": 1.55,
+      "hand": "L",
+      "umpCall": "ball",
+      "situation": "2-1, 0 out",
+      "note": "Caught the black on the arm side. The ball nicked the line \u2014 that's a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      },
+      "stand": "R"
+    },
+    {
+      "id": "m4",
+      "pitcher": "T. Okafor",
+      "pitchType": "Curveball",
+      "velo": 79.6,
+      "px": -0.1,
+      "pz": 1.4,
+      "szTop": 3.44,
+      "szBot": 1.6,
+      "hand": "R",
+      "umpCall": "ball",
+      "situation": "1-1, 2 out",
+      "note": "Buried under the knees. Everyone agreed on this one.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      },
+      "stand": "L"
+    },
+    {
+      "id": "m5",
+      "pitcher": "K. Brennan",
+      "pitchType": "Sweeper",
+      "velo": 84.2,
+      "px": 0.9,
+      "pz": 2.55,
+      "szTop": 3.38,
+      "szBot": 1.57,
+      "hand": "R",
+      "umpCall": "ball",
+      "situation": "2-2, 1 out, runner on 3rd",
+      "note": "Swept off the plate by most of a ball, and called that way.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      },
+      "stand": "R"
+    },
+    {
+      "id": "m6",
+      "pitcher": "J. Halverson",
+      "pitchType": "Changeup",
+      "velo": 85.9,
+      "px": -0.55,
+      "pz": 1.72,
+      "szTop": 3.3,
+      "szBot": 1.55,
+      "hand": "L",
+      "umpCall": "strike",
+      "situation": "1-2, 0 out",
+      "note": "Down and in, but it clipped the corner. Textbook.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      },
+      "stand": "R"
+    },
+    {
+      "id": "m7",
+      "pitcher": "M. Sandoval",
+      "pitchType": "4-Seam Fastball",
+      "velo": 96.3,
+      "px": -0.2,
+      "pz": 3.44,
+      "szTop": 3.38,
+      "szBot": 1.6,
+      "hand": "R",
+      "umpCall": "ball",
+      "situation": "3-1, 2 out",
+      "note": "Rode up at the letters and still grazed the top of the zone.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      },
+      "stand": "L"
+    },
+    {
+      "id": "m8",
+      "pitcher": "E. Duarte",
+      "pitchType": "Knuckle Curve",
+      "velo": 81.0,
+      "px": 0.62,
+      "pz": 1.66,
+      "szTop": 3.3,
+      "szBot": 1.6,
+      "hand": "R",
+      "umpCall": "strike",
+      "situation": "0-1, 1 out",
+      "note": "Dropped into the bottom-outer square. Clean call.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      },
+      "stand": "L"
+    },
+    {
+      "id": "m9",
+      "pitcher": "C. Lindqvist",
+      "pitchType": "Slider",
+      "velo": 88.7,
+      "px": -0.3,
+      "pz": 1.36,
+      "szTop": 3.46,
+      "szBot": 1.55,
+      "hand": "L",
+      "umpCall": "strike",
+      "situation": "3-2, 1 out",
+      "note": "Below the knees by most of an inch \u2014 punchout on a pitch that never was.",
+      "mv": {
+        "sag": 0.7,
+        "curve": 1.4
+      },
+      "stand": "R"
+    },
+    {
+      "id": "m10",
+      "pitcher": "B. Ferraro",
+      "pitchType": "Sinker",
+      "velo": 94.5,
+      "px": -0.76,
+      "pz": 2.4,
+      "szTop": 3.45,
+      "szBot": 1.6,
+      "hand": "R",
+      "umpCall": "strike",
+      "situation": "2-0, 0 out",
+      "note": "Shaved the inside edge \u2014 the human and the robot both took it.",
+      "mv": {
+        "sag": 1.0,
+        "curve": 0.9
+      },
+      "stand": "L"
+    }
+  ]
+}

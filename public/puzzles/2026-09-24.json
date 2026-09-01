@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-24",
+  "sourceGameDate": "2025-07-30",
+  "pitches": [
+    {
+      "id": "2025-07-30-2998",
+      "pitcher": "E. Uceta",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.3,
+      "px": -0.944,
+      "pz": 3.957,
+      "szTop": 3.673,
+      "szBot": 1.738,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Missed the top of the zone by 2.0 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-30-1297",
+      "pitcher": "S. Imanaga",
+      "pitchType": "4-Seam Fastball",
+      "velo": 90.3,
+      "px": -0.561,
+      "pz": 3.508,
+      "szTop": 3.498,
+      "szBot": 1.652,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the top of the zone by 1.3 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-30-2437",
+      "pitcher": "R. Gusto",
+      "pitchType": "4-Seam Fastball",
+      "velo": 92.9,
+      "px": 0.597,
+      "pz": 1.73,
+      "szTop": 3.546,
+      "szBot": 1.736,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-1, 0 outs",
+      "note": "Caught the bottom of the zone by 1.4 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-30-1611",
+      "pitcher": "D. Kremer",
+      "pitchType": "Cutter",
+      "velo": 87.5,
+      "px": 0.29,
+      "pz": 1.392,
+      "szTop": 3.47,
+      "szBot": 1.63,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 2 outs",
+      "note": "Missed the bottom of the zone by 1.4 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.4,
+        "curve": -0.7
+      }
+    },
+    {
+      "id": "2025-07-30-2874",
+      "pitcher": "J. Romero",
+      "pitchType": "Sweeper",
+      "velo": 82.2,
+      "px": 0.568,
+      "pz": 3.423,
+      "szTop": 3.439,
+      "szBot": 1.616,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the top of the zone by 1.6 in. Both had it a strike.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    }
+  ]
+}

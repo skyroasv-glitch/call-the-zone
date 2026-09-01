@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-22",
+  "sourceGameDate": "2025-08-01",
+  "pitches": [
+    {
+      "id": "2025-08-01-1807",
+      "pitcher": "J. Lopez",
+      "pitchType": "Slider",
+      "velo": 76.3,
+      "px": -1.042,
+      "pz": 1.589,
+      "szTop": 3.108,
+      "szBot": 1.453,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-1, 1 out",
+      "note": "Missed the outside corner by 2.6 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-08-01-50",
+      "pitcher": "R. Ray",
+      "pitchType": "Slider",
+      "velo": 86.3,
+      "px": -0.593,
+      "pz": 1.298,
+      "szTop": 3.642,
+      "szBot": 1.707,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-0, 1 out",
+      "note": "Missed the bottom of the zone by 3.5 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-08-01-2173",
+      "pitcher": "E. McGee",
+      "pitchType": "Sinker",
+      "velo": 93.6,
+      "px": -0.018,
+      "pz": 1.325,
+      "szTop": 3.302,
+      "szBot": 1.609,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "2-2, 0 outs",
+      "note": "Missed the bottom of the zone by 2.0 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-08-01-119",
+      "pitcher": "H. Brown",
+      "pitchType": "Slider",
+      "velo": 91.1,
+      "px": 0.619,
+      "pz": 1.551,
+      "szTop": 3.204,
+      "szBot": 1.395,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "2-2, 0 outs",
+      "note": "Caught the inside corner by 2.5 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-08-01-12",
+      "pitcher": "C. Rod\u00f3n",
+      "pitchType": "Slider",
+      "velo": 85.4,
+      "px": 1.107,
+      "pz": 2.227,
+      "szTop": 3.086,
+      "szBot": 1.481,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 1 out",
+      "note": "Missed the outside corner by 3.3 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    }
+  ]
+}

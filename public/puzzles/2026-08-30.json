@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-30",
+  "sourceGameDate": "2025-08-24",
+  "pitches": [
+    {
+      "id": "2025-08-24-996",
+      "pitcher": "K. Hendricks",
+      "pitchType": "4-Seam Fastball",
+      "velo": 87.2,
+      "px": -1.01,
+      "pz": 2.948,
+      "szTop": 3.626,
+      "szBot": 1.602,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "3-0, 2 outs",
+      "note": "Missed the outside corner by 2.2 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-24-1098",
+      "pitcher": "D. May",
+      "pitchType": "Sweeper",
+      "velo": 83.8,
+      "px": 0.546,
+      "pz": 1.845,
+      "szTop": 3.191,
+      "szBot": 1.506,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "1-0, 1 out",
+      "note": "Caught the outside corner by 3.4 in. Both had it a strike.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-08-24-3530",
+      "pitcher": "E. Pag\u00e1n",
+      "pitchType": "4-Seam Fastball",
+      "velo": 97.6,
+      "px": 0.322,
+      "pz": 3.44,
+      "szTop": 3.188,
+      "szBot": 1.493,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-2, 2 outs",
+      "note": "Missed the top of the zone by 1.6 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-24-600",
+      "pitcher": "C. Rod\u00f3n",
+      "pitchType": "Slider",
+      "velo": 84.8,
+      "px": 0.078,
+      "pz": 1.516,
+      "szTop": 3.6,
+      "szBot": 1.765,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the bottom of the zone by 1.5 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-08-24-4208",
+      "pitcher": "S. Arrighetti",
+      "pitchType": "4-Seam Fastball",
+      "velo": 93.6,
+      "px": 0.888,
+      "pz": 2.715,
+      "szTop": 3.442,
+      "szBot": 1.725,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the inside corner by 0.7 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    }
+  ]
+}

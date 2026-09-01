@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-11",
+  "sourceGameDate": "2025-08-12",
+  "pitches": [
+    {
+      "id": "2025-08-12-190",
+      "pitcher": "P. Skenes",
+      "pitchType": "Curveball",
+      "velo": 82.1,
+      "px": -0.764,
+      "pz": 3.033,
+      "szTop": 3.246,
+      "szBot": 1.497,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the outside corner by 0.8 in. Both had it a strike.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-08-12-3812",
+      "pitcher": "S. Armstrong",
+      "pitchType": "Sinker",
+      "velo": 94.2,
+      "px": 0.889,
+      "pz": 2.901,
+      "szTop": 3.323,
+      "szBot": 1.448,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "3-2, 0 outs",
+      "note": "Missed the outside corner by 0.7 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-08-12-4271",
+      "pitcher": "L. Erceg",
+      "pitchType": "4-Seam Fastball",
+      "velo": 97.7,
+      "px": 0.622,
+      "pz": 1.953,
+      "szTop": 3.826,
+      "szBot": 1.82,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 1 out",
+      "note": "Caught the inside corner by 2.5 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-12-2045",
+      "pitcher": "N. Cortes",
+      "pitchType": "4-Seam Fastball",
+      "velo": 89.2,
+      "px": 0.747,
+      "pz": 1.95,
+      "szTop": 3.329,
+      "szBot": 1.587,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "2-0, 1 out",
+      "note": "Caught the outside corner by 1.0 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-12-342",
+      "pitcher": "J. Flaherty",
+      "pitchType": "Slider",
+      "velo": 84.7,
+      "px": 1.141,
+      "pz": 1.633,
+      "szTop": 3.341,
+      "szBot": 1.603,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "1-0, 0 outs",
+      "note": "Missed the outside corner by 3.7 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-13",
+  "sourceGameDate": "2025-08-10",
+  "pitches": [
+    {
+      "id": "2025-08-10-1821",
+      "pitcher": "C. Mize",
+      "pitchType": "Sinker",
+      "velo": 94.9,
+      "px": -0.942,
+      "pz": 1.742,
+      "szTop": 3.358,
+      "szBot": 1.66,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-0, 2 outs",
+      "note": "Missed the inside corner by 1.4 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-08-10-2583",
+      "pitcher": "B. Woo",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.9,
+      "px": -0.328,
+      "pz": 3.878,
+      "szTop": 3.858,
+      "szBot": 1.908,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-2, 0 outs",
+      "note": "Caught the top of the zone by 1.2 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-10-433",
+      "pitcher": "C. Mize",
+      "pitchType": "Slurve",
+      "velo": 83.1,
+      "px": 0.893,
+      "pz": 1.236,
+      "szTop": 3.257,
+      "szBot": 1.522,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the bottom of the zone by 2.0 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.4,
+        "curve": 1.6
+      }
+    },
+    {
+      "id": "2025-08-10-2017",
+      "pitcher": "C. Fulmer",
+      "pitchType": "4-Seam Fastball",
+      "velo": 93.1,
+      "px": -0.93,
+      "pz": 1.926,
+      "szTop": 3.32,
+      "szBot": 1.561,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "1-0, 2 outs",
+      "note": "Missed the outside corner by 1.2 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-10-1248",
+      "pitcher": "R. Bergert",
+      "pitchType": "Sweeper",
+      "velo": 81.1,
+      "px": -0.551,
+      "pz": 3.019,
+      "szTop": 3.24,
+      "szBot": 1.495,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the inside corner by 3.3 in. Both had it a strike.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    }
+  ]
+}

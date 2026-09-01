@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-25",
+  "sourceGameDate": "2025-07-29",
+  "pitches": [
+    {
+      "id": "2025-07-29-1913",
+      "pitcher": "T. Glasnow",
+      "pitchType": "Sinker",
+      "velo": 97.3,
+      "px": 0.97,
+      "pz": 2.679,
+      "szTop": 3.298,
+      "szBot": 1.538,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-1, 1 out",
+      "note": "Missed the outside corner by 1.7 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-07-29-1733",
+      "pitcher": "J. Butt\u00f3",
+      "pitchType": "Slider",
+      "velo": 85.8,
+      "px": -1.143,
+      "pz": 2.311,
+      "szTop": 3.294,
+      "szBot": 1.558,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "2-1, 2 outs",
+      "note": "Missed the outside corner by 3.8 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-07-29-1235",
+      "pitcher": "S. Alcantara",
+      "pitchType": "Changeup",
+      "velo": 92.6,
+      "px": -0.883,
+      "pz": 2.002,
+      "szTop": 3.48,
+      "szBot": 1.686,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "1-0, 2 outs",
+      "note": "Missed the outside corner by 0.6 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-07-29-3441",
+      "pitcher": "B. Young",
+      "pitchType": "Cutter",
+      "velo": 85.8,
+      "px": -0.05,
+      "pz": 1.539,
+      "szTop": 3.608,
+      "szBot": 1.603,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "3-1, 2 outs",
+      "note": "Caught the bottom of the zone by 0.7 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.4,
+        "curve": -0.7
+      }
+    },
+    {
+      "id": "2025-07-29-4396",
+      "pitcher": "R. Walker",
+      "pitchType": "Slider",
+      "velo": 86.7,
+      "px": 0.611,
+      "pz": 1.162,
+      "szTop": 3.424,
+      "szBot": 1.581,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-1, 0 outs",
+      "note": "Missed the bottom of the zone by 3.6 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    }
+  ]
+}

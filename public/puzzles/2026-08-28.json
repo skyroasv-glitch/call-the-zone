@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-28",
+  "sourceGameDate": "2025-08-26",
+  "pitches": [
+    {
+      "id": "2025-08-26-2049",
+      "pitcher": "C. Beeter",
+      "pitchType": "4-Seam Fastball",
+      "velo": 96.0,
+      "px": -0.917,
+      "pz": 2.119,
+      "szTop": 3.564,
+      "szBot": 1.65,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 2 outs",
+      "note": "Missed the outside corner by 1.1 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-26-1164",
+      "pitcher": "B. Pfaadt",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.0,
+      "px": 1.067,
+      "pz": 3.003,
+      "szTop": 3.31,
+      "szBot": 1.585,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-2, 0 outs",
+      "note": "Missed the outside corner by 2.9 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-26-3521",
+      "pitcher": "L. Giolito",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.9,
+      "px": -1.071,
+      "pz": 3.105,
+      "szTop": 3.473,
+      "szBot": 1.631,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 2 outs",
+      "note": "Missed the outside corner by 2.9 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-26-856",
+      "pitcher": "B. Pfaadt",
+      "pitchType": "Changeup",
+      "velo": 88.2,
+      "px": -0.01,
+      "pz": 1.471,
+      "szTop": 3.074,
+      "szBot": 1.49,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Caught the bottom of the zone by 1.2 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-08-26-2171",
+      "pitcher": "T. Melton",
+      "pitchType": "Sinker",
+      "velo": 96.6,
+      "px": 0.438,
+      "pz": 1.588,
+      "szTop": 3.203,
+      "szBot": 1.388,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the bottom of the zone by 3.9 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    }
+  ]
+}

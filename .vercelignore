@@ -1,0 +1,12 @@
+# The remote build installs its own dependencies.
+node_modules
+dist
+
+# Python pipeline: it generates public/puzzles ahead of time and never runs on
+# the host. The venv alone is ~460 MB.
+data-pipeline
+
+# Solver and asset scripts — build-time only, not referenced by vite build.
+tools
+
+.claude

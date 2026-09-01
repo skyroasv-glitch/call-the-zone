@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "sourceGameDate": "2025-08-17",
+  "pitches": [
+    {
+      "id": "2025-08-17-142",
+      "pitcher": "J. Springs",
+      "pitchType": "Sweeper",
+      "velo": 75.3,
+      "px": -0.967,
+      "pz": 1.688,
+      "szTop": 3.328,
+      "szBot": 1.609,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-0, 2 outs",
+      "note": "Missed the inside corner by 1.7 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-08-17-164",
+      "pitcher": "G. Crochet",
+      "pitchType": "Sweeper",
+      "velo": 84.3,
+      "px": 0.139,
+      "pz": 1.459,
+      "szTop": 3.479,
+      "szBot": 1.66,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-2, 1 out",
+      "note": "Missed the bottom of the zone by 1.0 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-08-17-2610",
+      "pitcher": "B. Horn",
+      "pitchType": "Sweeper",
+      "velo": 85.0,
+      "px": -0.745,
+      "pz": 2.456,
+      "szTop": 3.717,
+      "szBot": 1.863,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the outside corner by 1.0 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-08-17-3992",
+      "pitcher": "K. Leahy",
+      "pitchType": "4-Seam Fastball",
+      "velo": 96.8,
+      "px": -0.462,
+      "pz": 1.659,
+      "szTop": 3.451,
+      "szBot": 1.656,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the bottom of the zone by 1.5 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-17-1923",
+      "pitcher": "T. Saucedo",
+      "pitchType": "Sweeper",
+      "velo": 80.4,
+      "px": -0.975,
+      "pz": 2.027,
+      "szTop": 3.47,
+      "szBot": 1.58,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-1, 2 outs",
+      "note": "Missed the outside corner by 1.8 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-16",
+  "sourceGameDate": "2025-08-07",
+  "pitches": [
+    {
+      "id": "2025-08-07-554",
+      "pitcher": "C. Carrasco",
+      "pitchType": "Curveball",
+      "velo": 77.9,
+      "px": -0.108,
+      "pz": 1.637,
+      "szTop": 3.584,
+      "szBot": 1.662,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 1 out",
+      "note": "Caught the bottom of the zone by 1.2 in. Both had it a strike.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-08-07-884",
+      "pitcher": "G. Taylor",
+      "pitchType": "4-Seam Fastball",
+      "velo": 99.0,
+      "px": -0.22,
+      "pz": 3.264,
+      "szTop": 3.448,
+      "szBot": 1.488,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-1, 1 out",
+      "note": "Caught the top of the zone by 3.7 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-07-1010",
+      "pitcher": "B. Singer",
+      "pitchType": "Sinker",
+      "velo": 93.3,
+      "px": 1.041,
+      "pz": 3.106,
+      "szTop": 3.501,
+      "szBot": 1.699,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "2-2, 0 outs",
+      "note": "Missed the inside corner by 2.5 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-08-07-146",
+      "pitcher": "B. Singer",
+      "pitchType": "Sinker",
+      "velo": 92.3,
+      "px": -0.776,
+      "pz": 3.484,
+      "szTop": 3.51,
+      "szBot": 1.684,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Caught the outside corner by 0.6 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-08-07-1205",
+      "pitcher": "B. Singer",
+      "pitchType": "Sinker",
+      "velo": 93.6,
+      "px": 0.881,
+      "pz": 2.334,
+      "szTop": 3.467,
+      "szBot": 1.586,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the inside corner by 0.6 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    }
+  ]
+}

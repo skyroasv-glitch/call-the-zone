@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-21",
+  "sourceGameDate": "2025-08-02",
+  "pitches": [
+    {
+      "id": "2025-08-02-4066",
+      "pitcher": "J. Hill",
+      "pitchType": "Changeup",
+      "velo": 84.6,
+      "px": -0.957,
+      "pz": 1.525,
+      "szTop": 3.84,
+      "szBot": 1.864,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-1, 0 outs",
+      "note": "Missed the bottom of the zone by 2.6 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-08-02-250",
+      "pitcher": "C. Gordon",
+      "pitchType": "Sweeper",
+      "velo": 80.5,
+      "px": 1.053,
+      "pz": 3.202,
+      "szTop": 3.637,
+      "szBot": 1.775,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the inside corner by 2.7 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-08-02-4248",
+      "pitcher": "A. D\u00edaz",
+      "pitchType": "4-Seam Fastball",
+      "velo": 93.8,
+      "px": -0.204,
+      "pz": 3.46,
+      "szTop": 3.501,
+      "szBot": 1.712,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the top of the zone by 1.9 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-02-4277",
+      "pitcher": "S. Cruz",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.9,
+      "px": -1.164,
+      "pz": 1.818,
+      "szTop": 3.683,
+      "szBot": 1.77,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Missed the outside corner by 4.0 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-02-3195",
+      "pitcher": "K. Ginkel",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.5,
+      "px": -0.893,
+      "pz": 2.675,
+      "szTop": 3.382,
+      "szBot": 1.658,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-1, 1 out",
+      "note": "Missed the outside corner by 0.8 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    }
+  ]
+}

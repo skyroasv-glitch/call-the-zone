@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-21",
+  "sourceGameDate": "2025-08-19",
+  "pitches": [
+    {
+      "id": "2025-08-19-197",
+      "pitcher": "N. Pivetta",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.1,
+      "px": -1.122,
+      "pz": 3.723,
+      "szTop": 3.608,
+      "szBot": 1.613,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "2-2, 2 outs",
+      "note": "Missed the outside corner by 3.5 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-19-1692",
+      "pitcher": "S. Smith",
+      "pitchType": "Slider",
+      "velo": 91.1,
+      "px": 0.482,
+      "pz": 1.602,
+      "szTop": 3.584,
+      "szBot": 1.643,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the bottom of the zone by 1.0 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-08-19-2856",
+      "pitcher": "M. Brash",
+      "pitchType": "Slider",
+      "velo": 85.3,
+      "px": -1.056,
+      "pz": 2.543,
+      "szTop": 3.345,
+      "szBot": 1.64,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "1-0, 0 outs",
+      "note": "Missed the outside corner by 2.7 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-08-19-2330",
+      "pitcher": "Y. De los Santos",
+      "pitchType": "Sinker",
+      "velo": 94.4,
+      "px": 0.633,
+      "pz": 2.639,
+      "szTop": 3.49,
+      "szBot": 1.557,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "2-0, 2 outs",
+      "note": "Caught the inside corner by 2.4 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-08-19-1347",
+      "pitcher": "A. Molina",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.8,
+      "px": 1.127,
+      "pz": 2.657,
+      "szTop": 3.673,
+      "szBot": 1.794,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-2, 2 outs",
+      "note": "Missed the outside corner by 3.6 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    }
+  ]
+}

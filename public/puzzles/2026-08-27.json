@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-27",
+  "sourceGameDate": "2025-08-27",
+  "pitches": [
+    {
+      "id": "2025-08-27-2989",
+      "pitcher": "S. Armstrong",
+      "pitchType": "4-Seam Fastball",
+      "velo": 92.1,
+      "px": -0.896,
+      "pz": 3.586,
+      "szTop": 3.17,
+      "szBot": 1.346,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "2-1, 2 outs",
+      "note": "Missed the top of the zone by 3.5 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-27-3356",
+      "pitcher": "A. Jacob",
+      "pitchType": "Sweeper",
+      "velo": 71.2,
+      "px": 0.731,
+      "pz": 2.879,
+      "szTop": 3.188,
+      "szBot": 1.495,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the outside corner by 1.2 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-08-27-2348",
+      "pitcher": "S. Ohtani",
+      "pitchType": "Curveball",
+      "velo": 77.1,
+      "px": -0.613,
+      "pz": 2.246,
+      "szTop": 3.235,
+      "szBot": 1.519,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the outside corner by 2.6 in. Both had it a strike.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-08-27-4275",
+      "pitcher": "J. Bruihl",
+      "pitchType": "Sinker",
+      "velo": 90.1,
+      "px": 0.683,
+      "pz": 3.152,
+      "szTop": 3.943,
+      "szBot": 1.782,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the inside corner by 1.8 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-08-27-1809",
+      "pitcher": "R. Gusto",
+      "pitchType": "Sweeper",
+      "velo": 81.3,
+      "px": -0.704,
+      "pz": 3.203,
+      "szTop": 3.233,
+      "szBot": 1.537,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-1, 2 outs",
+      "note": "Caught the outside corner by 1.5 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    }
+  ]
+}

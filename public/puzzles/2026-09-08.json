@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-08",
+  "sourceGameDate": "2025-08-15",
+  "pitches": [
+    {
+      "id": "2025-08-15-319",
+      "pitcher": "J. Perkins",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.8,
+      "px": -1.0,
+      "pz": 3.041,
+      "szTop": 3.59,
+      "szBot": 1.695,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "3-0, 0 outs",
+      "note": "Missed the inside corner by 2.1 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-15-4368",
+      "pitcher": "J. Weems",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.4,
+      "px": -0.357,
+      "pz": 1.707,
+      "szTop": 3.505,
+      "szBot": 1.646,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the bottom of the zone by 2.2 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-15-3900",
+      "pitcher": "J. Boyle",
+      "pitchType": "Slider",
+      "velo": 91.7,
+      "px": -0.515,
+      "pz": 2.423,
+      "szTop": 3.226,
+      "szBot": 1.415,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "1-2, 0 outs",
+      "note": "Caught the inside corner by 3.8 in. Both had it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-08-15-1454",
+      "pitcher": "F. Montas",
+      "pitchType": "Sweeper",
+      "velo": 82.7,
+      "px": -0.683,
+      "pz": 3.188,
+      "szTop": 3.593,
+      "szBot": 1.721,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-0, 2 outs",
+      "note": "Caught the outside corner by 1.8 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-08-15-3836",
+      "pitcher": "T. Kinley",
+      "pitchType": "Slider",
+      "velo": 85.9,
+      "px": -0.373,
+      "pz": 3.254,
+      "szTop": 3.265,
+      "szBot": 1.533,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the top of the zone by 1.6 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-15",
+  "sourceGameDate": "2025-08-08",
+  "pitches": [
+    {
+      "id": "2025-08-08-2573",
+      "pitcher": "Z. Gallen",
+      "pitchType": "Sinker",
+      "velo": 94.8,
+      "px": -1.058,
+      "pz": 3.243,
+      "szTop": 3.58,
+      "szBot": 1.747,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-0, 2 outs",
+      "note": "Missed the inside corner by 2.7 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-08-08-1726",
+      "pitcher": "T. Adams",
+      "pitchType": "Cutter",
+      "velo": 91.3,
+      "px": 1.054,
+      "pz": 3.536,
+      "szTop": 3.52,
+      "szBot": 1.585,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the outside corner by 2.7 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.4,
+        "curve": -0.7
+      }
+    },
+    {
+      "id": "2025-08-08-4088",
+      "pitcher": "G. Ashcraft",
+      "pitchType": "Slider",
+      "velo": 90.3,
+      "px": 0.918,
+      "pz": 2.67,
+      "szTop": 3.324,
+      "szBot": 1.586,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "1-0, 0 outs",
+      "note": "Missed the inside corner by 1.1 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-08-08-4081",
+      "pitcher": "R. Detmers",
+      "pitchType": "4-Seam Fastball",
+      "velo": 96.2,
+      "px": -0.816,
+      "pz": 3.861,
+      "szTop": 3.46,
+      "szBot": 1.64,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-0, 0 outs",
+      "note": "Missed the top of the zone by 3.4 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-08-3010",
+      "pitcher": "A. Gomber",
+      "pitchType": "Changeup",
+      "velo": 81.0,
+      "px": -0.225,
+      "pz": 3.255,
+      "szTop": 3.453,
+      "szBot": 1.546,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "2-0, 1 out",
+      "note": "Caught the top of the zone by 3.8 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    }
+  ]
+}

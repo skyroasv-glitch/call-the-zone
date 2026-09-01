@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-14",
+  "sourceGameDate": "2025-08-09",
+  "pitches": [
+    {
+      "id": "2025-08-09-4768",
+      "pitcher": "B. Stewart",
+      "pitchType": "Sinker",
+      "velo": 97.9,
+      "px": 0.684,
+      "pz": 2.636,
+      "szTop": 3.948,
+      "szBot": 1.84,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the outside corner by 1.7 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-08-09-470",
+      "pitcher": "R. Gusto",
+      "pitchType": "Cutter",
+      "velo": 88.6,
+      "px": -0.371,
+      "pz": 3.514,
+      "szTop": 3.193,
+      "szBot": 1.551,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "3-1, 0 outs",
+      "note": "Missed the top of the zone by 2.4 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.4,
+        "curve": -0.7
+      }
+    },
+    {
+      "id": "2025-08-09-1762",
+      "pitcher": "C. Bassitt",
+      "pitchType": "Sinker",
+      "velo": 93.6,
+      "px": -0.518,
+      "pz": 3.308,
+      "szTop": 3.352,
+      "szBot": 1.512,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the top of the zone by 2.0 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-08-09-3776",
+      "pitcher": "G. Soto",
+      "pitchType": "Sinker",
+      "velo": 98.1,
+      "px": -0.305,
+      "pz": 1.485,
+      "szTop": 3.393,
+      "szBot": 1.661,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Missed the bottom of the zone by 0.7 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-08-09-3132",
+      "pitcher": "T. Nance",
+      "pitchType": "Sinker",
+      "velo": 95.5,
+      "px": 0.905,
+      "pz": 2.357,
+      "szTop": 3.523,
+      "szBot": 1.759,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 2 outs",
+      "note": "Missed the outside corner by 0.9 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    }
+  ]
+}

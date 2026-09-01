@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-17",
+  "sourceGameDate": "2025-08-06",
+  "pitches": [
+    {
+      "id": "2025-08-06-588",
+      "pitcher": "K. Freeland",
+      "pitchType": "4-Seam Fastball",
+      "velo": 91.7,
+      "px": 0.957,
+      "pz": 2.101,
+      "szTop": 3.895,
+      "szBot": 1.885,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "1-0, 1 out",
+      "note": "Missed the outside corner by 1.5 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-06-2442",
+      "pitcher": "D. Peterson",
+      "pitchType": "Changeup",
+      "velo": 84.7,
+      "px": 1.062,
+      "pz": 1.413,
+      "szTop": 3.583,
+      "szBot": 1.573,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-1, 1 out",
+      "note": "Missed the outside corner by 2.8 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-08-06-1068",
+      "pitcher": "J. Flaherty",
+      "pitchType": "Slider",
+      "velo": 85.1,
+      "px": 0.506,
+      "pz": 1.914,
+      "szTop": 3.363,
+      "szBot": 1.498,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "1-0, 2 outs",
+      "note": "Caught the outside corner by 3.9 in. Both had it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-08-06-1956",
+      "pitcher": "R. Ray",
+      "pitchType": "4-Seam Fastball",
+      "velo": 93.5,
+      "px": 0.459,
+      "pz": 3.249,
+      "szTop": 3.442,
+      "szBot": 1.586,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-2, 2 outs",
+      "note": "Caught the top of the zone by 3.8 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-06-3004",
+      "pitcher": "A. Nola",
+      "pitchType": "Other",
+      "velo": 60.8,
+      "px": -0.007,
+      "pz": 1.776,
+      "szTop": 3.718,
+      "szBot": 1.741,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Caught the bottom of the zone by 1.9 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 0.0
+      }
+    }
+  ]
+}
