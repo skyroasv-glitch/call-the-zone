@@ -45,6 +45,20 @@ for i in $(seq 0 29); do
 done
 ```
 
+In practice this is automated: `.github/workflows/puzzles.yml` runs `topup.py`
+daily and commits whatever was missing. Reach for the loop below only for a
+manual backfill or a first fill.
+
+```bash
+python topup.py --dry-run     # what is missing
+python topup.py --days 45     # fill it
+```
+
+`topup.py` only writes dates that have no file, so running it repeatedly is
+safe, and it maps each publish date to a source game day deterministically —
+same calendar day last season, or a stable in-season pick when that lands in
+the off-season, so a December puzzle still has real pitches.
+
 Keep at least two days of runway at all times. The client keys off the player's
 **local** date, so a given puzzle goes live in UTC+14 about 26 hours before it
 does in UTC−11 — generating "today" on the day means the earliest timezones

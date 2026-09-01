@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-28",
+  "sourceGameDate": "2025-07-26",
+  "pitches": [
+    {
+      "id": "2025-07-26-4652",
+      "pitcher": "T. Skubal",
+      "pitchType": "Sinker",
+      "velo": 96.3,
+      "px": 0.576,
+      "pz": 3.247,
+      "szTop": 2.906,
+      "szBot": 1.385,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the top of the zone by 2.6 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-07-26-3894",
+      "pitcher": "J. Schreiber",
+      "pitchType": "Cutter",
+      "velo": 88.4,
+      "px": 0.077,
+      "pz": 3.814,
+      "szTop": 3.42,
+      "szBot": 1.65,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-1, 1 out",
+      "note": "Missed the top of the zone by 3.3 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.4,
+        "curve": -0.7
+      }
+    },
+    {
+      "id": "2025-07-26-2773",
+      "pitcher": "R. Ray",
+      "pitchType": "Slider",
+      "velo": 90.1,
+      "px": -0.391,
+      "pz": 1.301,
+      "szTop": 3.412,
+      "szBot": 1.68,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-2, 2 outs",
+      "note": "Missed the bottom of the zone by 3.1 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-07-26-2134",
+      "pitcher": "K. Funderburk",
+      "pitchType": "Sweeper",
+      "velo": 80.9,
+      "px": 0.969,
+      "pz": 2.893,
+      "szTop": 3.853,
+      "szBot": 1.776,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the inside corner by 1.7 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-07-26-3547",
+      "pitcher": "S. Armstrong",
+      "pitchType": "Sweeper",
+      "velo": 84.3,
+      "px": -0.861,
+      "pz": 1.314,
+      "szTop": 3.256,
+      "szBot": 1.563,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-1, 1 out",
+      "note": "Missed the bottom of the zone by 1.5 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    }
+  ]
+}

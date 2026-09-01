@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-26",
+  "sourceGameDate": "2025-09-01",
+  "pitches": [
+    {
+      "id": "2025-09-01-2155",
+      "pitcher": "T. Walker",
+      "pitchType": "Split-Finger",
+      "velo": 87.2,
+      "px": -0.751,
+      "pz": 1.739,
+      "szTop": 3.517,
+      "szBot": 1.636,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-1, 1 out",
+      "note": "Caught the outside corner by 0.9 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 1.6,
+        "curve": 0.4
+      }
+    },
+    {
+      "id": "2025-09-01-3079",
+      "pitcher": "B. Ober",
+      "pitchType": "4-Seam Fastball",
+      "velo": 91.4,
+      "px": -0.535,
+      "pz": 3.204,
+      "szTop": 3.4,
+      "szBot": 1.717,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the outside corner by 3.5 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-09-01-1306",
+      "pitcher": "F. Ellard",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.9,
+      "px": -0.947,
+      "pz": 3.576,
+      "szTop": 3.334,
+      "szBot": 1.343,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "3-1, 2 outs",
+      "note": "Missed the top of the zone by 1.5 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-09-01-2404",
+      "pitcher": "C. Booser",
+      "pitchType": "Sweeper",
+      "velo": 78.9,
+      "px": 0.678,
+      "pz": 3.326,
+      "szTop": 3.468,
+      "szBot": 1.514,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "1-0, 2 outs",
+      "note": "Caught the outside corner by 1.8 in. Both had it a strike.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-09-01-643",
+      "pitcher": "L. Castillo",
+      "pitchType": "Sinker",
+      "velo": 94.7,
+      "px": 0.502,
+      "pz": 2.152,
+      "szTop": 3.361,
+      "szBot": 1.48,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "2-1, 0 outs",
+      "note": "Caught the inside corner by 3.9 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    }
+  ]
+}
