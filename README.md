@@ -49,7 +49,20 @@ one reference zone.
 
 ## Hosting
 
-Deployed on Vercel; `vercel.json` carries the cache rules, which are the part
+Deployed on Vercel. **Deploys are manual** — git integration is deliberately
+off, so pushing does not publish:
+
+```bash
+git pull                                                  # pick up the bot's puzzles
+vercel deploy --prod --yes --scope skyroasv-2291s-projects
+```
+
+`git pull` first matters: the scheduled job commits new puzzles to GitHub, and a
+deploy uploads the working tree — so deploying without pulling publishes a
+runway that is missing whatever the bot generated since. The scheduled job keeps
+the *repository* topped up either way; only a deploy moves that to the site.
+
+`vercel.json` carries the cache rules, which are the part
 worth understanding (JSON allows no comments, so they are written down here):
 
 | path | rule | why |
