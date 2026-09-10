@@ -28,11 +28,55 @@ const EMPTY: SaveState = {
   bestRun: 0, runsPlayed: 0, pitchesSeen: 0,
 };
 
+function finiteCount(value: unknown): number {
+  return typeof value === "number" && Number.isFinite(value) && value >= 0
+    ? Math.floor(value)
+    : 0;
+}
+
+function readHistory(value: unknown): Record<string, DayResult> {
+  if (typeof value !== "object" || value === null) return {};
+  const history: Record<string, DayResult> = {};
+  for (const [date, raw] of Object.entries(value)) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || typeof raw !== "object" || raw === null) continue;
+    const r = raw as Record<string, unknown>;
+    if (!Array.isArray(r.results) || !r.results.every((x) => typeof x === "boolean")) continue;
+    history[date] = {
+      date,
+      results: r.results,
+      score: finiteCount(r.score),
+    };
+  }
+  return history;
+}
+
+function normalizeSave(raw: unknown): SaveState {
+  if (typeof raw !== "object" || raw === null) return { ...EMPTY };
+  const s = raw as Record<string, unknown>;
+  const history = readHistory(s.history);
+  const lastPlayed = typeof s.lastPlayed === "string" && /^\d{4}-\d{2}-\d{2}$/.test(s.lastPlayed)
+    ? s.lastPlayed
+    : null;
+  return {
+    muted: typeof s.muted === "boolean" ? s.muted : EMPTY.muted,
+    introSeen: typeof s.introSeen === "boolean" ? s.introSeen : EMPTY.introSeen,
+    skinId: typeof s.skinId === "string" ? s.skinId : EMPTY.skinId,
+    lastPlayed,
+    streak: finiteCount(s.streak),
+    maxStreak: finiteCount(s.maxStreak),
+    played: finiteCount(s.played),
+    history,
+    bestRun: finiteCount(s.bestRun),
+    runsPlayed: finiteCount(s.runsPlayed),
+    pitchesSeen: finiteCount(s.pitchesSeen),
+  };
+}
+
 export function loadSave(): SaveState {
   try {
     const raw = localStorage.getItem(KEY);
     if (!raw) return { ...EMPTY };
-    return { ...EMPTY, ...(JSON.parse(raw) as SaveState) };
+    return normalizeSave(JSON.parse(raw));
   } catch {
     return { ...EMPTY };
   }

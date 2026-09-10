@@ -1,5 +1,4 @@
 import { readFileSync } from "node:fs";
-import * as THREE from "three";
 globalThis.self = globalThis;
 /*
  * Enough of a DOM for FBXLoader to run headless. Models that reference textures

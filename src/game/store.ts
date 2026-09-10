@@ -1,5 +1,6 @@
 import { create } from "zustand";
 import type { Call, Pitch, Puzzle } from "./types";
+import { isPuzzle } from "./types";
 import { rulebookCall } from "./rulebook";
 import { todayKey, hashDate, shiftDate } from "./daily";
 import { loadSave, recordDay, recordRun, setIntroSeen, setMutedPref, setSkin, type SaveState } from "./storage";
@@ -74,6 +75,7 @@ const PUZZLE_COUNT = 5;
 export const CALL_SECONDS = 5;
 /** How far back to look for generated puzzles when stocking the infinite bag. */
 const POOL_DAYS = 21;
+let loadSeq = 0;
 
 async function getJson<T>(url: string): Promise<T | null> {
   try {
@@ -88,6 +90,11 @@ async function getJson<T>(url: string): Promise<T | null> {
   }
 }
 
+async function getPuzzle(url: string): Promise<Puzzle | null> {
+  const json = await getJson<unknown>(url);
+  return isPuzzle(json) ? json : null;
+}
+
 interface LoadedPuzzle {
   puzzle: Puzzle;
   isFallback: boolean;
@@ -96,12 +103,12 @@ interface LoadedPuzzle {
 async function fetchPuzzle(date: string): Promise<LoadedPuzzle> {
   const base = import.meta.env.BASE_URL;
 
-  const dated = await getJson<Puzzle>(`${base}puzzles/${date}.json`);
+  const dated = await getPuzzle(`${base}puzzles/${date}.json`);
   if (dated?.pitches?.length) return { puzzle: dated, isFallback: false };
 
   // No puzzle generated for today — fall back to the rotating mock set so the
   // game is always playable, still deterministic for the date.
-  const mock = await getJson<Puzzle>(`${base}puzzles/mock-puzzle.json`);
+  const mock = await getPuzzle(`${base}puzzles/mock-puzzle.json`);
   if (!mock?.pitches?.length) throw new Error(`No puzzle available for ${date}`);
   const offset = hashDate(date) % mock.pitches.length;
   const pitches = Array.from(
@@ -123,7 +130,7 @@ async function fetchPool(): Promise<Pitch[]> {
     `${base}puzzles/mock-puzzle.json`,
     ...Array.from({ length: POOL_DAYS }, (_, i) => `${base}puzzles/${shiftDate(today, -i)}.json`),
   ];
-  const puzzles = await Promise.all(urls.map((u) => getJson<Puzzle>(u)));
+  const puzzles = await Promise.all(urls.map((u) => getPuzzle(u)));
 
   const seen = new Set<string>();
   const pool: Pitch[] = [];
@@ -176,21 +183,26 @@ export const useGame = create<GameState>((set, get) => ({
   bankedPitches: 0,
 
   startDaily: async () => {
+    const seq = ++loadSeq;
     const date = todayKey();
     set({ phase: "loading", mode: "daily", error: null, puzzle: null, isFallback: false, judged: [], index: 0 });
     try {
       const { puzzle, isFallback } = await fetchPuzzle(date);
+      if (seq !== loadSeq) return;
       if (!puzzle.pitches.length) throw new Error("Puzzle has no pitches");
       set({ puzzle, isFallback, phase: "ready", index: 0, judged: [], error: null, resumeTo: null, bag: [], deadline: null });
     } catch (e) {
+      if (seq !== loadSeq) return;
       set({ error: e instanceof Error ? e.message : String(e), phase: "loading" });
     }
   },
 
   startInfinite: async () => {
+    const seq = ++loadSeq;
     set({ phase: "loading", mode: "infinite", error: null, puzzle: null, isFallback: false, judged: [], index: 0 });
     try {
       const pool = await fetchPool();
+      if (seq !== loadSeq) return;
       const [first, bag] = draw([], pool);
       set({
         puzzle: { date: "infinite", pitches: [first] },
@@ -205,11 +217,13 @@ export const useGame = create<GameState>((set, get) => ({
         bankedPitches: 0,
       });
     } catch (e) {
+      if (seq !== loadSeq) return;
       set({ error: e instanceof Error ? e.message : String(e), phase: "loading" });
     }
   },
 
   goHome: () => {
+    loadSeq++;
     // Leaving mid-run used to discard it outright — the streak and the pitches
     // both vanished unless you had pressed End run first.
     get().bankRun();

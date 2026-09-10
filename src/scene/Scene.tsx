@@ -25,21 +25,25 @@ function Driver({ anim, pitch }: { anim: React.RefObject<AnimState>; pitch: Pitc
 
   useFrame(({ clock }) => {
     if (phase !== "pitching") {
+      // oxlint-disable-next-line react/immutability -- frame refs are the r3f animation bus, not React state
       anim.current = phase === "ready" ? idleAnim() : settledAnim();
       return;
     }
     if (start.current === null) start.current = clock.elapsedTime;
     const e = clock.elapsedTime - start.current;
     if (e < WINDUP_SEC) {
+      // oxlint-disable-next-line react/immutability -- frame refs are the r3f animation bus, not React state
       anim.current = { active: true, windup: e / WINDUP_SEC, flight: 0, released: false, after: 0 };
       return;
     }
     const fl = (e - WINDUP_SEC) / dur;
     if (fl >= 1) {
+      // oxlint-disable-next-line react/immutability -- frame refs are the r3f animation bus, not React state
       anim.current = settledAnim();
       arrive();
       return;
     }
+    // oxlint-disable-next-line react/immutability -- frame refs are the r3f animation bus, not React state
     anim.current = { active: true, windup: 1, flight: fl, released: true, after: 0 };
   });
 
@@ -104,6 +108,7 @@ function ResponsiveCamera() {
     const shortfall = Math.max(BASE_ASPECT / Math.max(aspect, 0.1), 1);
 
     const half = Math.tan((BASE_FOV * Math.PI) / 360) * shortfall;
+    // oxlint-disable-next-line react/immutability -- three.js cameras are configured by mutating the object
     cam.fov = Math.min((Math.atan(half) * 360) / Math.PI, 52);
 
     if (!placed.current) {

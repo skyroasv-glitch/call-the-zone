@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": ".test-out",
+    "rootDir": "src",
+    "types": ["vite/client", "node"],
+    "allowImportingTsExtensions": false,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.test-out.tsbuildinfo"
+  },
+  "include": ["src/game/**/*.ts"],
+  "exclude": []
+}

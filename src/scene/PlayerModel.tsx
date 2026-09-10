@@ -124,6 +124,7 @@ export function PlayerModel({
       anchorPelvis(group.current, rig.bones, pelvisRef.current);
     }
     const o = opacityRef?.current;
+    // oxlint-disable-next-line react/immutability -- material opacity is updated in the render loop for fades
     if (o !== undefined) for (const m of rig.materials) m.opacity = o;
   });
 

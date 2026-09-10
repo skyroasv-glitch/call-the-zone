@@ -21,3 +21,46 @@ export interface Puzzle {
   date: string;           // YYYY-MM-DD
   pitches: Pitch[];
 }
+
+function isCall(value: unknown): value is Call {
+  return value === "ball" || value === "strike";
+}
+
+function isHand(value: unknown): value is "R" | "L" {
+  return value === "R" || value === "L";
+}
+
+function isFiniteNumber(value: unknown): value is number {
+  return typeof value === "number" && Number.isFinite(value);
+}
+
+export function isPitch(value: unknown): value is Pitch {
+  if (typeof value !== "object" || value === null) return false;
+  const p = value as Record<string, unknown>;
+  const mv = p.mv as Record<string, unknown> | undefined;
+  return typeof p.id === "string"
+    && typeof p.pitcher === "string"
+    && typeof p.pitchType === "string"
+    && isFiniteNumber(p.velo)
+    && isFiniteNumber(p.px)
+    && isFiniteNumber(p.pz)
+    && isFiniteNumber(p.szTop)
+    && isFiniteNumber(p.szBot)
+    && isHand(p.hand)
+    && isHand(p.stand)
+    && isCall(p.umpCall)
+    && typeof p.situation === "string"
+    && typeof p.note === "string"
+    && typeof mv === "object"
+    && mv !== null
+    && isFiniteNumber(mv.sag)
+    && isFiniteNumber(mv.curve);
+}
+
+export function isPuzzle(value: unknown): value is Puzzle {
+  if (typeof value !== "object" || value === null) return false;
+  const p = value as Record<string, unknown>;
+  return typeof p.date === "string"
+    && Array.isArray(p.pitches)
+    && p.pitches.every(isPitch);
+}

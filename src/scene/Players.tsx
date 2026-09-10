@@ -290,7 +290,7 @@ export function Catcher({ anim, target, skin }: {
    * hoping. The mitt rides the hand bone, so moving the hand moves the mitt —
    * which is the only way it stays attached to the wrist.
    */
-  const reach = useMemo(() => (bones: BoneMap) => {
+  const reach = (bones: BoneMap) => {
     const k = Math.min(Math.max((anim.current.flight - 0.35) / 0.65, 0), 1);
     if (k <= 0) return;
     const hand = bones.hand_l;
@@ -299,7 +299,7 @@ export function Catcher({ anim, target, skin }: {
     want.set(target[0], target[1], RECEIVE_Z).sub(rest).clampLength(0, 1.1)
       .multiplyScalar(k).add(rest);
     reachArm(bones, "l", want, GLOVE_POLE);
-  }, [anim, target, rest, want]);
+  };
 
   return (
     <group position={[0, 0, 2.6]}>

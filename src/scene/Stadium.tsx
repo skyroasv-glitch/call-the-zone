@@ -14,6 +14,14 @@ import * as THREE from "three";
 const WALL_R = 360, WALL_H = 9;
 const FAIR_START = Math.PI * 0.75, FAIR_LEN = Math.PI * 0.5;
 
+function makeRand(initial: number) {
+  let seed = initial;
+  return () => {
+    seed = (seed * 1664525 + 1013904223) >>> 0;
+    return seed / 0xffffffff;
+  };
+}
+
 function GradientSky() {
   const material = useMemo(() => new THREE.ShaderMaterial({
     side: THREE.BackSide,
@@ -56,11 +64,7 @@ function useCrowdTexture() {
     const size = 64;
     const data = new Uint8Array(size * size * 4);
     // deterministic: no Math.random, so the crowd looks the same every load
-    let seed = 1337;
-    const rand = () => {
-      seed = (seed * 1664525 + 1013904223) >>> 0;
-      return seed / 0xffffffff;
-    };
+    const rand = makeRand(1337);
     for (let i = 0; i < size * size; i++) {
       const x = i % size, y = (i / size) | 0;
       const warm = rand();
@@ -116,11 +120,7 @@ function useAdTexture() {
   return useMemo(() => {
     const w = 128, h = 8;
     const data = new Uint8Array(w * h * 4);
-    let seed = 90210;
-    const rand = () => {
-      seed = (seed * 1664525 + 1013904223) >>> 0;
-      return seed / 0xffffffff;
-    };
+    const rand = makeRand(90210);
     const palette = [
       [38, 54, 78], [96, 40, 42], [40, 66, 52],
       [82, 70, 34], [30, 38, 52], [66, 58, 80],
@@ -163,11 +163,7 @@ function CameraFlashes({ count = 18 }: { count?: number }) {
     [],
   );
   const spots = useMemo(() => {
-    let seed = 24601;
-    const rand = () => {
-      seed = (seed * 1664525 + 1013904223) >>> 0;
-      return seed / 0xffffffff;
-    };
+    const rand = makeRand(24601);
     return Array.from({ length: count }, () => {
       // biased toward centre field, where the camera is actually looking
       const a = Math.PI + (rand() - 0.5) * 2.4;
