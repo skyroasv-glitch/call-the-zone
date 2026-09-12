@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-12",
+  "sourceGameDate": "2025-06-20",
+  "pitches": [
+    {
+      "id": "2025-06-20-455",
+      "pitcher": "J. deGrom",
+      "pitchType": "Curveball",
+      "velo": 81.4,
+      "px": 0.455,
+      "pz": 3.43,
+      "szTop": 3.449,
+      "szBot": 1.665,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the top of the zone by 1.7 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-06-20-3557",
+      "pitcher": "A. Vesia",
+      "pitchType": "4-Seam Fastball",
+      "velo": 93.1,
+      "px": 1.012,
+      "pz": 2.709,
+      "szTop": 3.551,
+      "szBot": 1.552,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Missed the inside corner by 2.2 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-06-20-4267",
+      "pitcher": "C. Phillips",
+      "pitchType": "4-Seam Fastball",
+      "velo": 97.0,
+      "px": -0.701,
+      "pz": 3.603,
+      "szTop": 3.271,
+      "szBot": 1.51,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-0, 0 outs",
+      "note": "Missed the top of the zone by 2.5 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-06-20-599",
+      "pitcher": "H. Birdsong",
+      "pitchType": "Curveball",
+      "velo": 81.2,
+      "px": 0.947,
+      "pz": 2.198,
+      "szTop": 3.516,
+      "szBot": 1.834,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the inside corner by 1.4 in. Both had it a ball.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-06-20-2710",
+      "pitcher": "T. Rogers",
+      "pitchType": "Sweeper",
+      "velo": 77.3,
+      "px": -0.901,
+      "pz": 2.124,
+      "szTop": 3.556,
+      "szBot": 1.684,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Missed the outside corner by 0.9 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    }
+  ]
+}
