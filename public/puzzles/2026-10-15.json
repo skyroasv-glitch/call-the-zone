@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-15",
+  "sourceGameDate": "2025-06-28",
+  "pitches": [
+    {
+      "id": "2025-06-28-1298",
+      "pitcher": "B. Pfaadt",
+      "pitchType": "Curveball",
+      "velo": 82.3,
+      "px": -0.092,
+      "pz": 1.561,
+      "szTop": 3.282,
+      "szBot": 1.498,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the bottom of the zone by 2.2 in. Both had it a strike.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-06-28-3128",
+      "pitcher": "D. Santana",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.0,
+      "px": 0.498,
+      "pz": 1.917,
+      "szTop": 3.46,
+      "szBot": 1.628,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "1-2, 2 outs",
+      "note": "Caught the outside corner by 4.0 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-06-28-828",
+      "pitcher": "S. Lugo",
+      "pitchType": "4-Seam Fastball",
+      "velo": 90.3,
+      "px": -0.763,
+      "pz": 3.254,
+      "szTop": 3.402,
+      "szBot": 1.553,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "3-0, 1 out",
+      "note": "Caught the outside corner by 0.8 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-06-28-2470",
+      "pitcher": "B. Woo",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.9,
+      "px": -0.731,
+      "pz": 3.842,
+      "szTop": 3.48,
+      "szBot": 1.828,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-2, 0 outs",
+      "note": "Missed the top of the zone by 2.9 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-06-28-700",
+      "pitcher": "A. Abbott",
+      "pitchType": "4-Seam Fastball",
+      "velo": 92.4,
+      "px": 0.924,
+      "pz": 3.18,
+      "szTop": 3.111,
+      "szBot": 1.328,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "2-0, 1 out",
+      "note": "Missed the outside corner by 1.1 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    }
+  ]
+}
