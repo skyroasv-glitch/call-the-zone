@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-16",
+  "sourceGameDate": "2025-05-09",
+  "pitches": [
+    {
+      "id": "2025-05-09-763",
+      "pitcher": "M. Meyer",
+      "pitchType": "4-Seam Fastball",
+      "velo": 93.5,
+      "px": -1.173,
+      "pz": 3.427,
+      "szTop": 3.297,
+      "szBot": 1.57,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "3-1, 1 out",
+      "note": "Missed the outside corner by 4.1 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-05-09-713",
+      "pitcher": "K. Gausman",
+      "pitchType": "4-Seam Fastball",
+      "velo": 96.9,
+      "px": -0.964,
+      "pz": 3.3,
+      "szTop": 3.66,
+      "szBot": 1.74,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-2, 2 outs",
+      "note": "Missed the outside corner by 1.6 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-05-09-3543",
+      "pitcher": "A. Banda",
+      "pitchType": "Sinker",
+      "velo": 96.5,
+      "px": 0.897,
+      "pz": 2.907,
+      "szTop": 3.262,
+      "szBot": 1.626,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 1 out",
+      "note": "Missed the outside corner by 0.8 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-05-09-2420",
+      "pitcher": "E. Fedde",
+      "pitchType": "Sinker",
+      "velo": 94.6,
+      "px": 0.961,
+      "pz": 1.94,
+      "szTop": 3.418,
+      "szBot": 1.572,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "2-2, 1 out",
+      "note": "Missed the outside corner by 1.6 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-05-09-3525",
+      "pitcher": "J. Koenig",
+      "pitchType": "Sinker",
+      "velo": 94.4,
+      "px": -0.892,
+      "pz": 1.063,
+      "szTop": 3.271,
+      "szBot": 1.478,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the bottom of the zone by 3.5 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    }
+  ]
+}
