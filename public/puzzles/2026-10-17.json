@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-17",
+  "sourceGameDate": "2025-08-23",
+  "pitches": [
+    {
+      "id": "2025-08-23-693",
+      "pitcher": "F. Peralta",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.9,
+      "px": -0.975,
+      "pz": 2.73,
+      "szTop": 3.34,
+      "szBot": 1.601,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-1, 2 outs",
+      "note": "Missed the outside corner by 1.8 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-23-2679",
+      "pitcher": "R. Henriquez",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.8,
+      "px": -0.493,
+      "pz": 2.857,
+      "szTop": 3.333,
+      "szBot": 1.668,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "1-0, 2 outs",
+      "note": "Caught the inside corner by 4.0 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-23-170",
+      "pitcher": "C. Quantrill",
+      "pitchType": "Sinker",
+      "velo": 93.8,
+      "px": 0.06,
+      "pz": 1.333,
+      "szTop": 3.57,
+      "szBot": 1.67,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-1, 2 outs",
+      "note": "Missed the bottom of the zone by 2.6 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-08-23-4058",
+      "pitcher": "J. Hoffman",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.8,
+      "px": 0.499,
+      "pz": 1.669,
+      "szTop": 3.481,
+      "szBot": 1.628,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the bottom of the zone by 1.9 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-08-23-3088",
+      "pitcher": "J. Adam",
+      "pitchType": "Slider",
+      "velo": 85.2,
+      "px": -0.342,
+      "pz": 1.918,
+      "szTop": 3.76,
+      "szBot": 1.813,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the bottom of the zone by 2.7 in. Both had it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    }
+  ]
+}
