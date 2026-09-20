@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-20",
+  "sourceGameDate": "2025-09-05",
+  "pitches": [
+    {
+      "id": "2025-09-05-3786",
+      "pitcher": "C. Mlodzinski",
+      "pitchType": "Curveball",
+      "velo": 84.7,
+      "px": 0.489,
+      "pz": 1.942,
+      "szTop": 3.084,
+      "szBot": 1.358,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "1-0, 1 out",
+      "note": "Caught the inside corner by 4.1 in. Both had it a strike.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-09-05-4467",
+      "pitcher": "G. Jax",
+      "pitchType": "4-Seam Fastball",
+      "velo": 97.0,
+      "px": -0.56,
+      "pz": 2.95,
+      "szTop": 3.155,
+      "szBot": 1.37,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the outside corner by 3.2 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-09-05-4111",
+      "pitcher": "Y. Ram\u00edrez",
+      "pitchType": "4-Seam Fastball",
+      "velo": 96.9,
+      "px": 0.65,
+      "pz": 1.442,
+      "szTop": 3.599,
+      "szBot": 1.62,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "2-0, 0 outs",
+      "note": "Missed the bottom of the zone by 0.7 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-09-05-2047",
+      "pitcher": "Q. Priester",
+      "pitchType": "Cutter",
+      "velo": 93.3,
+      "px": -0.77,
+      "pz": 2.926,
+      "szTop": 3.774,
+      "szBot": 1.851,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the outside corner by 0.7 in. Both had it a strike.",
+      "mv": {
+        "sag": 0.4,
+        "curve": -0.7
+      }
+    },
+    {
+      "id": "2025-09-05-1750",
+      "pitcher": "P. L\u00f3pez",
+      "pitchType": "Curveball",
+      "velo": 83.2,
+      "px": -0.359,
+      "pz": 1.528,
+      "szTop": 3.407,
+      "szBot": 1.578,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-1, 2 outs",
+      "note": "Caught the bottom of the zone by 0.9 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    }
+  ]
+}
