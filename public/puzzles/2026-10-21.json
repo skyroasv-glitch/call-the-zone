@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-21",
+  "sourceGameDate": "2025-04-20",
+  "pitches": [
+    {
+      "id": "2025-04-20-3019",
+      "pitcher": "S. Alexander",
+      "pitchType": "Sinker",
+      "velo": 89.9,
+      "px": 0.995,
+      "pz": 1.329,
+      "szTop": 3.743,
+      "szBot": 1.733,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "2-2, 2 outs",
+      "note": "Missed the bottom of the zone by 3.4 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-04-20-884",
+      "pitcher": "J. Verlander",
+      "pitchType": "Curveball",
+      "velo": 80.8,
+      "px": 0.759,
+      "pz": 1.526,
+      "szTop": 3.372,
+      "szBot": 1.586,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "3-2, 2 outs",
+      "note": "Caught the bottom of the zone by 0.7 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-04-20-2017",
+      "pitcher": "C. Holmes",
+      "pitchType": "Sinker",
+      "velo": 93.4,
+      "px": 0.64,
+      "pz": 1.265,
+      "szTop": 3.317,
+      "szBot": 1.625,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-1, 2 outs",
+      "note": "Missed the bottom of the zone by 2.9 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-04-20-666",
+      "pitcher": "F. Valdez",
+      "pitchType": "Sinker",
+      "velo": 95.2,
+      "px": -0.25,
+      "pz": 1.747,
+      "szTop": 3.72,
+      "szBot": 1.717,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 1 out",
+      "note": "Caught the bottom of the zone by 1.8 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-04-20-2647",
+      "pitcher": "M. Kelly",
+      "pitchType": "Slider",
+      "velo": 86.2,
+      "px": 1.083,
+      "pz": 1.976,
+      "szTop": 3.63,
+      "szBot": 1.72,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 1 out",
+      "note": "Missed the outside corner by 3.0 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    }
+  ]
+}
