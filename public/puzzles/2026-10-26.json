@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-26",
+  "sourceGameDate": "2025-09-02",
+  "pitches": [
+    {
+      "id": "2025-09-02-2708",
+      "pitcher": "M. Lorenzen",
+      "pitchType": "Sweeper",
+      "velo": 81.9,
+      "px": 0.19,
+      "pz": 1.451,
+      "szTop": 3.722,
+      "szBot": 1.87,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 2 outs",
+      "note": "Missed the bottom of the zone by 3.6 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-09-02-1884",
+      "pitcher": "T. Rashi",
+      "pitchType": "Curveball",
+      "velo": 74.0,
+      "px": -0.31,
+      "pz": 3.184,
+      "szTop": 3.133,
+      "szBot": 1.394,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the top of the zone by 0.8 in. Both had it a strike.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-09-02-1455",
+      "pitcher": "B. Chandler",
+      "pitchType": "4-Seam Fastball",
+      "velo": 97.7,
+      "px": 0.608,
+      "pz": 1.233,
+      "szTop": 3.619,
+      "szBot": 1.7,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the bottom of the zone by 4.2 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-09-02-271",
+      "pitcher": "M. Fried",
+      "pitchType": "4-Seam Fastball",
+      "velo": 96.7,
+      "px": 1.031,
+      "pz": 2.512,
+      "szTop": 2.803,
+      "szBot": 1.368,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "1-0, 0 outs",
+      "note": "Missed the outside corner by 2.4 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-09-02-2566",
+      "pitcher": "M. Mikolas",
+      "pitchType": "4-Seam Fastball",
+      "velo": 96.1,
+      "px": 0.31,
+      "pz": 3.645,
+      "szTop": 3.713,
+      "szBot": 1.847,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the top of the zone by 2.3 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    }
+  ]
+}
