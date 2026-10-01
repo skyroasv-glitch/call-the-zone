@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-31",
+  "sourceGameDate": "2025-07-27",
+  "pitches": [
+    {
+      "id": "2025-07-27-1585",
+      "pitcher": "A. Granillo",
+      "pitchType": "4-Seam Fastball",
+      "velo": 93.6,
+      "px": 0.972,
+      "pz": 3.352,
+      "szTop": 3.266,
+      "szBot": 1.413,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-1, 1 out",
+      "note": "Missed the outside corner by 1.7 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-27-1322",
+      "pitcher": "D. May",
+      "pitchType": "Sinker",
+      "velo": 95.7,
+      "px": 0.61,
+      "pz": 1.864,
+      "szTop": 3.322,
+      "szBot": 1.61,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the outside corner by 2.6 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-07-27-1071",
+      "pitcher": "J. Leiter",
+      "pitchType": "4-Seam Fastball",
+      "velo": 96.9,
+      "px": -0.953,
+      "pz": 3.766,
+      "szTop": 3.371,
+      "szBot": 1.536,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "2-1, 0 outs",
+      "note": "Missed the top of the zone by 3.3 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-27-4148",
+      "pitcher": "V. Bellozo",
+      "pitchType": "4-Seam Fastball",
+      "velo": 91.0,
+      "px": -0.511,
+      "pz": 3.468,
+      "szTop": 3.447,
+      "szBot": 1.821,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-0, 0 outs",
+      "note": "Caught the top of the zone by 1.2 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-27-54",
+      "pitcher": "W. Buehler",
+      "pitchType": "Cutter",
+      "velo": 89.8,
+      "px": 0.931,
+      "pz": 2.24,
+      "szTop": 3.683,
+      "szBot": 1.697,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "2-1, 0 outs",
+      "note": "Missed the inside corner by 1.2 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.4,
+        "curve": -0.7
+      }
+    }
+  ]
+}
