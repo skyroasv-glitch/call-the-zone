@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-02",
+  "sourceGameDate": "2025-05-10",
+  "pitches": [
+    {
+      "id": "2025-05-10-2624",
+      "pitcher": "G. Holman",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.3,
+      "px": -0.082,
+      "pz": 3.728,
+      "szTop": 3.819,
+      "szBot": 1.665,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the top of the zone by 2.5 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-05-10-1655",
+      "pitcher": "T. Bibee",
+      "pitchType": "Sinker",
+      "velo": 94.1,
+      "px": 0.501,
+      "pz": 1.963,
+      "szTop": 3.562,
+      "szBot": 1.676,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the outside corner by 3.9 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-05-10-2141",
+      "pitcher": "T. Bibee",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.2,
+      "px": -0.607,
+      "pz": 2.667,
+      "szTop": 3.52,
+      "szBot": 1.677,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "1-0, 2 outs",
+      "note": "Caught the outside corner by 2.7 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-05-10-1033",
+      "pitcher": "D. May",
+      "pitchType": "Sinker",
+      "velo": 94.6,
+      "px": 0.709,
+      "pz": 2.154,
+      "szTop": 3.173,
+      "szBot": 1.407,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "2-2, 1 out",
+      "note": "Caught the inside corner by 1.4 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-05-10-1966",
+      "pitcher": "C. Lee",
+      "pitchType": "Sinker",
+      "velo": 87.7,
+      "px": 0.992,
+      "pz": 2.608,
+      "szTop": 3.369,
+      "szBot": 1.616,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "3-1, 2 outs",
+      "note": "Missed the outside corner by 2.0 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    }
+  ]
+}
