@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-05",
+  "sourceGameDate": "2025-09-17",
+  "pitches": [
+    {
+      "id": "2025-09-17-4084",
+      "pitcher": "D. Dodd",
+      "pitchType": "Sinker",
+      "velo": 93.4,
+      "px": -1.036,
+      "pz": 1.934,
+      "szTop": 3.495,
+      "szBot": 1.64,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the outside corner by 2.5 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-09-17-3463",
+      "pitcher": "R. Walker",
+      "pitchType": "Sinker",
+      "velo": 95.9,
+      "px": 1.026,
+      "pz": 2.277,
+      "szTop": 3.236,
+      "szBot": 1.51,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Missed the outside corner by 2.4 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-09-17-664",
+      "pitcher": "J. Flaherty",
+      "pitchType": "Knuckle Curve",
+      "velo": 74.9,
+      "px": -0.887,
+      "pz": 2.013,
+      "szTop": 3.379,
+      "szBot": 1.593,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the outside corner by 0.7 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-09-17-2255",
+      "pitcher": "E. Alvarado",
+      "pitchType": "Sinker",
+      "velo": 97.8,
+      "px": 0.932,
+      "pz": 2.291,
+      "szTop": 3.604,
+      "szBot": 1.605,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-1, 0 outs",
+      "note": "Missed the inside corner by 1.2 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-09-17-1560",
+      "pitcher": "N. Pivetta",
+      "pitchType": "Curveball",
+      "velo": 78.2,
+      "px": -0.388,
+      "pz": 3.614,
+      "szTop": 3.3,
+      "szBot": 1.466,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 1 out",
+      "note": "Missed the top of the zone by 2.3 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    }
+  ]
+}
