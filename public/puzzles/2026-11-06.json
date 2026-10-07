@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-06",
+  "sourceGameDate": "2025-04-13",
+  "pitches": [
+    {
+      "id": "2025-04-13-3083",
+      "pitcher": "T. Phillips",
+      "pitchType": "Sweeper",
+      "velo": 85.3,
+      "px": -0.775,
+      "pz": 3.089,
+      "szTop": 3.422,
+      "szBot": 1.655,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Caught the outside corner by 0.6 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-04-13-3776",
+      "pitcher": "Y. Garc\u00eda",
+      "pitchType": "4-Seam Fastball",
+      "velo": 96.9,
+      "px": 0.633,
+      "pz": 2.591,
+      "szTop": 3.85,
+      "szBot": 1.766,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-2, 0 outs",
+      "note": "Caught the inside corner by 2.4 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-04-13-471",
+      "pitcher": "K. Hendricks",
+      "pitchType": "Curveball",
+      "velo": 71.6,
+      "px": -0.056,
+      "pz": 1.561,
+      "szTop": 3.41,
+      "szBot": 1.526,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "1-0, 1 out",
+      "note": "Caught the bottom of the zone by 1.9 in. Both had it a strike.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-04-13-2780",
+      "pitcher": "M. Liberatore",
+      "pitchType": "Sinker",
+      "velo": 96.0,
+      "px": 0.505,
+      "pz": 1.936,
+      "szTop": 3.418,
+      "szBot": 1.54,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "3-0, 2 outs",
+      "note": "Caught the inside corner by 3.9 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-04-13-3112",
+      "pitcher": "L. Webb",
+      "pitchType": "Sweeper",
+      "velo": 85.2,
+      "px": -0.924,
+      "pz": 3.459,
+      "szTop": 3.71,
+      "szBot": 1.819,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "2-0, 1 out",
+      "note": "Missed the outside corner by 1.1 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    }
+  ]
+}
