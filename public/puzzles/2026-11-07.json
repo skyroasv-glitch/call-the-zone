@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-07",
+  "sourceGameDate": "2025-05-20",
+  "pitches": [
+    {
+      "id": "2025-05-20-1644",
+      "pitcher": "W. Buehler",
+      "pitchType": "Sweeper",
+      "velo": 80.1,
+      "px": 1.167,
+      "pz": 2.33,
+      "szTop": 3.383,
+      "szBot": 1.669,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-1, 1 out",
+      "note": "Missed the outside corner by 4.1 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-05-20-2122",
+      "pitcher": "R. Nelson",
+      "pitchType": "Slider",
+      "velo": 85.8,
+      "px": 1.024,
+      "pz": 1.708,
+      "szTop": 3.378,
+      "szBot": 1.625,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-1, 0 outs",
+      "note": "Missed the outside corner by 2.3 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-05-20-3755",
+      "pitcher": "Y. Rodr\u00edguez",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.7,
+      "px": 0.224,
+      "pz": 3.814,
+      "szTop": 3.378,
+      "szBot": 1.547,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-0, 0 outs",
+      "note": "Missed the top of the zone by 3.8 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-05-20-3824",
+      "pitcher": "D. Cease",
+      "pitchType": "4-Seam Fastball",
+      "velo": 96.6,
+      "px": 0.928,
+      "pz": 2.527,
+      "szTop": 3.651,
+      "szBot": 1.657,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the outside corner by 1.2 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-05-20-3145",
+      "pitcher": "R. Montero",
+      "pitchType": "Split-Finger",
+      "velo": 87.7,
+      "px": -0.752,
+      "pz": 1.945,
+      "szTop": 3.694,
+      "szBot": 1.757,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-1, 1 out",
+      "note": "Caught the outside corner by 0.9 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 1.6,
+        "curve": 0.4
+      }
+    }
+  ]
+}
