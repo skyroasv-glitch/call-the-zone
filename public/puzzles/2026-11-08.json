@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-08",
+  "sourceGameDate": "2025-09-06",
+  "pitches": [
+    {
+      "id": "2025-09-06-1525",
+      "pitcher": "B. Singer",
+      "pitchType": "Sinker",
+      "velo": 90.2,
+      "px": -0.536,
+      "pz": 3.864,
+      "szTop": 3.472,
+      "szBot": 1.498,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "3-2, 1 out",
+      "note": "Missed the top of the zone by 3.3 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-09-06-4256",
+      "pitcher": "B. Little",
+      "pitchType": "Sinker",
+      "velo": 93.8,
+      "px": -1.108,
+      "pz": 2.81,
+      "szTop": 3.74,
+      "szBot": 1.791,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-0, 1 out",
+      "note": "Missed the outside corner by 3.3 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-09-06-1712",
+      "pitcher": "M. P\u00e9rez",
+      "pitchType": "Changeup",
+      "velo": 81.5,
+      "px": 0.983,
+      "pz": 1.859,
+      "szTop": 3.191,
+      "szBot": 1.549,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "2-0, 1 out",
+      "note": "Missed the outside corner by 1.8 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-09-06-2182",
+      "pitcher": "H. Brown",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.6,
+      "px": -0.907,
+      "pz": 2.678,
+      "szTop": 3.548,
+      "szBot": 1.661,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "2-2, 0 outs",
+      "note": "Missed the outside corner by 0.9 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-09-06-1835",
+      "pitcher": "R. V\u00e1squez",
+      "pitchType": "Sinker",
+      "velo": 93.9,
+      "px": 0.648,
+      "pz": 1.25,
+      "szTop": 3.619,
+      "szBot": 1.61,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-0, 1 out",
+      "note": "Missed the bottom of the zone by 2.9 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    }
+  ]
+}
