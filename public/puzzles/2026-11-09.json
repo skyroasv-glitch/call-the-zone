@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-09",
+  "sourceGameDate": "2025-05-28",
+  "pitches": [
+    {
+      "id": "2025-05-28-2195",
+      "pitcher": "Y. Kikuchi",
+      "pitchType": "Slider",
+      "velo": 87.6,
+      "px": -0.887,
+      "pz": 1.623,
+      "szTop": 3.891,
+      "szBot": 1.936,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "3-1, 1 out",
+      "note": "Missed the bottom of the zone by 2.3 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-05-28-1235",
+      "pitcher": "T. Gordon",
+      "pitchType": "4-Seam Fastball",
+      "velo": 92.8,
+      "px": 1.155,
+      "pz": 3.032,
+      "szTop": 3.495,
+      "szBot": 1.684,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-2, 1 out",
+      "note": "Missed the inside corner by 3.9 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-05-28-2425",
+      "pitcher": "M. Leiter Jr.",
+      "pitchType": "Curveball",
+      "velo": 74.8,
+      "px": 1.056,
+      "pz": 1.908,
+      "szTop": 3.484,
+      "szBot": 1.679,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "2-2, 2 outs",
+      "note": "Missed the outside corner by 2.7 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-05-28-3983",
+      "pitcher": "P. Schultz",
+      "pitchType": "Cutter",
+      "velo": 87.1,
+      "px": -1.025,
+      "pz": 2.511,
+      "szTop": 3.042,
+      "szBot": 1.327,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the outside corner by 2.4 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.4,
+        "curve": -0.7
+      }
+    },
+    {
+      "id": "2025-05-28-982",
+      "pitcher": "K. Hart",
+      "pitchType": "Sweeper",
+      "velo": 83.0,
+      "px": -0.751,
+      "pz": 2.644,
+      "szTop": 3.479,
+      "szBot": 1.628,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-1, 1 out",
+      "note": "Caught the outside corner by 0.9 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    }
+  ]
+}
