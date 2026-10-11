@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-10",
+  "sourceGameDate": "2025-05-21",
+  "pitches": [
+    {
+      "id": "2025-05-21-1600",
+      "pitcher": "G. Crochet",
+      "pitchType": "4-Seam Fastball",
+      "velo": 97.1,
+      "px": 0.678,
+      "pz": 1.64,
+      "szTop": 3.333,
+      "szBot": 1.544,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-0, 0 outs",
+      "note": "Caught the outside corner by 1.8 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-05-21-297",
+      "pitcher": "B. Singer",
+      "pitchType": "Sinker",
+      "velo": 91.1,
+      "px": -1.121,
+      "pz": 2.402,
+      "szTop": 3.424,
+      "szBot": 1.644,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Missed the inside corner by 3.5 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-05-21-2316",
+      "pitcher": "J. Lo\u00e1isiga",
+      "pitchType": "Sinker",
+      "velo": 96.8,
+      "px": -0.895,
+      "pz": 2.286,
+      "szTop": 3.481,
+      "szBot": 1.713,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "2-1, 2 outs",
+      "note": "Missed the inside corner by 0.8 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-05-21-2168",
+      "pitcher": "T. Bradley",
+      "pitchType": "Split-Finger",
+      "velo": 90.7,
+      "px": -1.116,
+      "pz": 1.37,
+      "szTop": 3.451,
+      "szBot": 1.533,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-2, 2 outs",
+      "note": "Missed the inside corner by 3.4 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.6,
+        "curve": 0.4
+      }
+    },
+    {
+      "id": "2025-05-21-494",
+      "pitcher": "H. Brown",
+      "pitchType": "Knuckle Curve",
+      "velo": 82.0,
+      "px": -0.513,
+      "pz": 3.359,
+      "szTop": 3.485,
+      "szBot": 1.541,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the top of the zone by 3.0 in. Both had it a strike.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    }
+  ]
+}
