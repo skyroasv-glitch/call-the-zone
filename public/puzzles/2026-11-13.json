@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-13",
+  "sourceGameDate": "2025-05-05",
+  "pitches": [
+    {
+      "id": "2025-05-05-755",
+      "pitcher": "S. Alcantara",
+      "pitchType": "4-Seam Fastball",
+      "velo": 99.1,
+      "px": -1.064,
+      "pz": 1.836,
+      "szTop": 3.497,
+      "szBot": 1.524,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "2-2, 1 out",
+      "note": "Missed the outside corner by 2.8 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-05-05-1240",
+      "pitcher": "G. Soriano",
+      "pitchType": "Sinker",
+      "velo": 96.3,
+      "px": 0.626,
+      "pz": 1.687,
+      "szTop": 3.493,
+      "szBot": 1.55,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "3-1, 2 outs",
+      "note": "Caught the outside corner by 2.4 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-05-05-2123",
+      "pitcher": "C. Ragans",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.6,
+      "px": -0.49,
+      "pz": 3.45,
+      "szTop": 3.38,
+      "szBot": 1.617,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "2-2, 0 outs",
+      "note": "Caught the top of the zone by 0.6 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-05-05-2567",
+      "pitcher": "J. Morillo",
+      "pitchType": "Sinker",
+      "velo": 99.0,
+      "px": -0.565,
+      "pz": 3.388,
+      "szTop": 3.343,
+      "szBot": 1.45,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Caught the top of the zone by 0.9 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-05-05-439",
+      "pitcher": "L. Roupp",
+      "pitchType": "Curveball",
+      "velo": 75.8,
+      "px": -0.238,
+      "pz": 1.662,
+      "szTop": 3.472,
+      "szBot": 1.658,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the bottom of the zone by 1.5 in. Both had it a strike.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    }
+  ]
+}
