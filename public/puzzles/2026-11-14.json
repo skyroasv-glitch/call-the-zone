@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-14",
+  "sourceGameDate": "2025-05-14",
+  "pitches": [
+    {
+      "id": "2025-05-14-2800",
+      "pitcher": "B. Little",
+      "pitchType": "Knuckle Curve",
+      "velo": 87.8,
+      "px": 0.367,
+      "pz": 1.391,
+      "szTop": 3.369,
+      "szBot": 1.636,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Missed the bottom of the zone by 1.5 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-05-14-2762",
+      "pitcher": "J. Taillon",
+      "pitchType": "4-Seam Fastball",
+      "velo": 92.9,
+      "px": -0.104,
+      "pz": 3.781,
+      "szTop": 3.383,
+      "szBot": 1.679,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-0, 1 out",
+      "note": "Missed the top of the zone by 3.3 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-05-14-2245",
+      "pitcher": "B. Elder",
+      "pitchType": "Sinker",
+      "velo": 90.9,
+      "px": 1.144,
+      "pz": 2.123,
+      "szTop": 3.591,
+      "szBot": 1.624,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the outside corner by 3.8 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-05-14-4290",
+      "pitcher": "Y. Garc\u00eda",
+      "pitchType": "Sweeper",
+      "velo": 86.6,
+      "px": 0.615,
+      "pz": 1.479,
+      "szTop": 3.405,
+      "szBot": 1.405,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the bottom of the zone by 2.3 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-05-14-58",
+      "pitcher": "J. Luzardo",
+      "pitchType": "Sweeper",
+      "velo": 86.7,
+      "px": 0.539,
+      "pz": 3.037,
+      "szTop": 4.008,
+      "szBot": 1.84,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the outside corner by 3.5 in. Both had it a strike.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    }
+  ]
+}
