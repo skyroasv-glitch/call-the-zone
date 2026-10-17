@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-16",
+  "sourceGameDate": "2025-06-11",
+  "pitches": [
+    {
+      "id": "2025-06-11-2990",
+      "pitcher": "N. Lodolo",
+      "pitchType": "Curveball",
+      "velo": 82.0,
+      "px": 1.092,
+      "pz": 2.768,
+      "szTop": 3.398,
+      "szBot": 1.501,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Missed the outside corner by 3.2 in. Both had it a ball.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-06-11-1912",
+      "pitcher": "E. McGee",
+      "pitchType": "Sinker",
+      "velo": 93.9,
+      "px": 0.503,
+      "pz": 2.538,
+      "szTop": 3.365,
+      "szBot": 1.501,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-2, 2 outs",
+      "note": "Caught the inside corner by 3.9 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-06-11-1261",
+      "pitcher": "C. Quantrill",
+      "pitchType": "Sinker",
+      "velo": 93.9,
+      "px": -0.199,
+      "pz": 1.656,
+      "szTop": 3.153,
+      "szBot": 1.559,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "1-0, 1 out",
+      "note": "Caught the bottom of the zone by 2.6 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-06-11-188",
+      "pitcher": "B. Brown",
+      "pitchType": "Knuckle Curve",
+      "velo": 86.5,
+      "px": -0.701,
+      "pz": 3.597,
+      "szTop": 3.537,
+      "szBot": 1.665,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the top of the zone by 0.7 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-06-11-3497",
+      "pitcher": "J. Wilson",
+      "pitchType": "Slider",
+      "velo": 89.9,
+      "px": 0.433,
+      "pz": 1.477,
+      "szTop": 3.184,
+      "szBot": 1.333,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "2-2, 0 outs",
+      "note": "Caught the bottom of the zone by 3.2 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    }
+  ]
+}
