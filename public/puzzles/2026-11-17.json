@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-17",
+  "sourceGameDate": "2025-05-13",
+  "pitches": [
+    {
+      "id": "2025-05-13-1451",
+      "pitcher": "F. Valdez",
+      "pitchType": "Curveball",
+      "velo": 77.5,
+      "px": 1.06,
+      "pz": 2.225,
+      "szTop": 3.534,
+      "szBot": 1.542,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "2-1, 0 outs",
+      "note": "Missed the outside corner by 2.8 in. Both had it a ball.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-05-13-2943",
+      "pitcher": "T. Holton",
+      "pitchType": "Sweeper",
+      "velo": 81.0,
+      "px": 0.767,
+      "pz": 2.252,
+      "szTop": 3.36,
+      "szBot": 1.644,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-1, 1 out",
+      "note": "Caught the inside corner by 0.7 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-05-13-958",
+      "pitcher": "L. Allen",
+      "pitchType": "4-Seam Fastball",
+      "velo": 90.2,
+      "px": -1.175,
+      "pz": 2.64,
+      "szTop": 3.41,
+      "szBot": 1.604,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-1, 1 out",
+      "note": "Missed the outside corner by 4.2 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-05-13-1925",
+      "pitcher": "J. Cannon",
+      "pitchType": "4-Seam Fastball",
+      "velo": 90.6,
+      "px": 0.908,
+      "pz": 1.853,
+      "szTop": 3.35,
+      "szBot": 1.69,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "1-0, 0 outs",
+      "note": "Missed the inside corner by 0.9 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-05-13-836",
+      "pitcher": "L. Allen",
+      "pitchType": "Sweeper",
+      "velo": 76.1,
+      "px": 0.629,
+      "pz": 2.21,
+      "szTop": 3.257,
+      "szBot": 1.447,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-1, 1 out",
+      "note": "Caught the outside corner by 2.4 in. Both had it a strike.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    }
+  ]
+}
