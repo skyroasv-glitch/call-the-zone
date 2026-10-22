@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-21",
+  "sourceGameDate": "2025-06-26",
+  "pitches": [
+    {
+      "id": "2025-06-26-980",
+      "pitcher": "Z. Pop",
+      "pitchType": "Slider",
+      "velo": 86.0,
+      "px": -0.919,
+      "pz": 1.84,
+      "szTop": 3.344,
+      "szBot": 1.626,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 1 out",
+      "note": "Missed the outside corner by 1.1 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-06-26-1527",
+      "pitcher": "J. Schreiber",
+      "pitchType": "Sinker",
+      "velo": 93.9,
+      "px": -0.975,
+      "pz": 2.178,
+      "szTop": 3.569,
+      "szBot": 1.811,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 1 out",
+      "note": "Missed the inside corner by 1.8 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-06-26-815",
+      "pitcher": "C. S\u00e1nchez",
+      "pitchType": "Slider",
+      "velo": 83.8,
+      "px": 0.677,
+      "pz": 2.433,
+      "szTop": 3.187,
+      "szBot": 1.566,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "1-0, 0 outs",
+      "note": "Caught the outside corner by 1.8 in. Both had it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-06-26-1752",
+      "pitcher": "B. Stewart",
+      "pitchType": "Sinker",
+      "velo": 96.4,
+      "px": -0.381,
+      "pz": 1.017,
+      "szTop": 3.248,
+      "szBot": 1.369,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "2-1, 2 outs",
+      "note": "Missed the bottom of the zone by 2.8 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-06-26-225",
+      "pitcher": "J. Springs",
+      "pitchType": "Slider",
+      "velo": 84.5,
+      "px": -0.58,
+      "pz": 2.926,
+      "szTop": 3.547,
+      "szBot": 1.656,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "1-0, 2 outs",
+      "note": "Caught the outside corner by 3.0 in. Both had it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    }
+  ]
+}
