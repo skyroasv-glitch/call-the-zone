@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-22",
+  "sourceGameDate": "2025-04-29",
+  "pitches": [
+    {
+      "id": "2025-04-29-321",
+      "pitcher": "T. Bibee",
+      "pitchType": "Sinker",
+      "velo": 93.7,
+      "px": 1.027,
+      "pz": 1.813,
+      "szTop": 3.312,
+      "szBot": 1.664,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "1-0, 2 outs",
+      "note": "Missed the inside corner by 2.4 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-04-29-1589",
+      "pitcher": "K. Herget",
+      "pitchType": "Cutter",
+      "velo": 84.4,
+      "px": -0.536,
+      "pz": 1.674,
+      "szTop": 3.279,
+      "szBot": 1.49,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Caught the outside corner by 3.5 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.4,
+        "curve": -0.7
+      }
+    },
+    {
+      "id": "2025-04-29-2151",
+      "pitcher": "M. Vasil",
+      "pitchType": "Changeup",
+      "velo": 86.9,
+      "px": 0.297,
+      "pz": 1.296,
+      "szTop": 3.471,
+      "szBot": 1.762,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "2-1, 2 outs",
+      "note": "Missed the bottom of the zone by 4.1 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-04-29-1611",
+      "pitcher": "T. Bradley",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.8,
+      "px": 0.581,
+      "pz": 1.907,
+      "szTop": 3.274,
+      "szBot": 1.482,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 1 out",
+      "note": "Caught the outside corner by 3.0 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-04-29-156",
+      "pitcher": "B. Miller",
+      "pitchType": "4-Seam Fastball",
+      "velo": 92.9,
+      "px": 0.705,
+      "pz": 1.429,
+      "szTop": 3.625,
+      "szBot": 1.67,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "2-1, 2 outs",
+      "note": "Missed the bottom of the zone by 1.4 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    }
+  ]
+}
