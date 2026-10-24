@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-23",
+  "sourceGameDate": "2025-07-24",
+  "pitches": [
+    {
+      "id": "2025-07-24-584",
+      "pitcher": "S. Gray",
+      "pitchType": "Changeup",
+      "velo": 84.7,
+      "px": -1.163,
+      "pz": 2.622,
+      "szTop": 3.241,
+      "szBot": 1.52,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-1, 0 outs",
+      "note": "Missed the outside corner by 4.0 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-07-24-1230",
+      "pitcher": "J. Junis",
+      "pitchType": "Sweeper",
+      "velo": 82.7,
+      "px": 0.635,
+      "pz": 2.045,
+      "szTop": 3.199,
+      "szBot": 1.53,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 1 out",
+      "note": "Caught the outside corner by 2.3 in. Both had it a strike.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-07-24-290",
+      "pitcher": "L. Severino",
+      "pitchType": "Sweeper",
+      "velo": 85.0,
+      "px": -0.393,
+      "pz": 1.593,
+      "szTop": 3.321,
+      "szBot": 1.59,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "1-1, 1 out",
+      "note": "Caught the bottom of the zone by 1.5 in. Both had it a strike.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-07-24-869",
+      "pitcher": "J. Alexander",
+      "pitchType": "Changeup",
+      "velo": 79.4,
+      "px": 0.656,
+      "pz": 1.638,
+      "szTop": 3.292,
+      "szBot": 1.444,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "2-1, 2 outs",
+      "note": "Caught the inside corner by 2.1 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-07-24-478",
+      "pitcher": "C. Morton",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.9,
+      "px": 0.543,
+      "pz": 3.786,
+      "szTop": 3.768,
+      "szBot": 1.754,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Caught the top of the zone by 1.2 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    }
+  ]
+}
