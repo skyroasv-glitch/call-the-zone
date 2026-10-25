@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-24",
+  "sourceGameDate": "2025-05-15",
+  "pitches": [
+    {
+      "id": "2025-05-15-731",
+      "pitcher": "N. Martinez",
+      "pitchType": "Curveball",
+      "velo": 79.6,
+      "px": -0.565,
+      "pz": 1.409,
+      "szTop": 3.269,
+      "szBot": 1.602,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Missed the bottom of the zone by 0.9 in. Both had it a ball.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-05-15-48",
+      "pitcher": "N. Martinez",
+      "pitchType": "Cutter",
+      "velo": 88.9,
+      "px": 0.737,
+      "pz": 1.885,
+      "szTop": 3.23,
+      "szBot": 1.701,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Caught the outside corner by 1.1 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.4,
+        "curve": -0.7
+      }
+    },
+    {
+      "id": "2025-05-15-1278",
+      "pitcher": "J. Duran",
+      "pitchType": "Split-Finger",
+      "velo": 97.2,
+      "px": -0.651,
+      "pz": 3.36,
+      "szTop": 3.391,
+      "szBot": 1.625,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the top of the zone by 1.8 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.6,
+        "curve": 0.4
+      }
+    },
+    {
+      "id": "2025-05-15-1508",
+      "pitcher": "S. Dom\u00ednguez",
+      "pitchType": "Sinker",
+      "velo": 97.6,
+      "px": -0.748,
+      "pz": 3.035,
+      "szTop": 3.2,
+      "szBot": 1.61,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "2-0, 0 outs",
+      "note": "Caught the inside corner by 1.0 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-05-15-233",
+      "pitcher": "Z. Littell",
+      "pitchType": "Slider",
+      "velo": 89.3,
+      "px": -0.888,
+      "pz": 2.424,
+      "szTop": 3.393,
+      "szBot": 1.618,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "1-0, 1 out",
+      "note": "Missed the outside corner by 0.7 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    }
+  ]
+}
