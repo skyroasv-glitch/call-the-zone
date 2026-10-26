@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-25",
+  "sourceGameDate": "2025-06-01",
+  "pitches": [
+    {
+      "id": "2025-06-01-665",
+      "pitcher": "G. Williams",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.7,
+      "px": -1.043,
+      "pz": 2.937,
+      "szTop": 3.232,
+      "szBot": 1.584,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "1-1, 2 outs",
+      "note": "Missed the outside corner by 2.6 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-06-01-1312",
+      "pitcher": "C. Morton",
+      "pitchType": "Sinker",
+      "velo": 94.2,
+      "px": -0.565,
+      "pz": 2.656,
+      "szTop": 3.391,
+      "szBot": 1.554,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "1-0, 1 out",
+      "note": "Caught the inside corner by 3.2 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-06-01-3868",
+      "pitcher": "T. Rogers",
+      "pitchType": "Sweeper",
+      "velo": 79.6,
+      "px": -1.035,
+      "pz": 3.113,
+      "szTop": 3.636,
+      "szBot": 1.623,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-0, 1 out",
+      "note": "Missed the inside corner by 2.5 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-06-01-1603",
+      "pitcher": "J. Quintana",
+      "pitchType": "Sinker",
+      "velo": 91.2,
+      "px": -0.312,
+      "pz": 1.254,
+      "szTop": 3.404,
+      "szBot": 1.644,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "2-0, 1 out",
+      "note": "Missed the bottom of the zone by 3.2 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-06-01-440",
+      "pitcher": "R. Yarbrough",
+      "pitchType": "Changeup",
+      "velo": 77.4,
+      "px": 0.055,
+      "pz": 1.392,
+      "szTop": 3.309,
+      "szBot": 1.628,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Missed the bottom of the zone by 1.4 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    }
+  ]
+}
