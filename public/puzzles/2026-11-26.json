@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-26",
+  "sourceGameDate": "2025-04-14",
+  "pitches": [
+    {
+      "id": "2025-04-14-351",
+      "pitcher": "T. Walker",
+      "pitchType": "Cutter",
+      "velo": 86.6,
+      "px": -0.562,
+      "pz": 3.067,
+      "szTop": 3.496,
+      "szBot": 1.518,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "1-0, 1 out",
+      "note": "Caught the outside corner by 3.2 in. Both had it a strike.",
+      "mv": {
+        "sag": 0.4,
+        "curve": -0.7
+      }
+    },
+    {
+      "id": "2025-04-14-59",
+      "pitcher": "J. Ryan",
+      "pitchType": "4-Seam Fastball",
+      "velo": 90.1,
+      "px": -0.96,
+      "pz": 3.203,
+      "szTop": 3.38,
+      "szBot": 1.489,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-1, 1 out",
+      "note": "Missed the outside corner by 1.6 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-04-14-1069",
+      "pitcher": "C. Holmes",
+      "pitchType": "Cutter",
+      "velo": 91.5,
+      "px": 1.17,
+      "pz": 2.124,
+      "szTop": 3.373,
+      "szBot": 1.569,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-1, 2 outs",
+      "note": "Missed the inside corner by 4.1 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.4,
+        "curve": -0.7
+      }
+    },
+    {
+      "id": "2025-04-14-1976",
+      "pitcher": "S. Lugo",
+      "pitchType": "Slider",
+      "velo": 85.1,
+      "px": 0.886,
+      "pz": 2.989,
+      "szTop": 3.548,
+      "szBot": 1.6,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the outside corner by 0.7 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-04-14-2782",
+      "pitcher": "K. Maeda",
+      "pitchType": "4-Seam Fastball",
+      "velo": 90.2,
+      "px": -1.034,
+      "pz": 2.479,
+      "szTop": 3.342,
+      "szBot": 1.606,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "2-0, 0 outs",
+      "note": "Missed the outside corner by 2.5 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    }
+  ]
+}
