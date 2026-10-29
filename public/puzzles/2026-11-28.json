@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-28",
+  "sourceGameDate": "2025-09-03",
+  "pitches": [
+    {
+      "id": "2025-09-03-4170",
+      "pitcher": "E. P\u00e9rez",
+      "pitchType": "Changeup",
+      "velo": 87.4,
+      "px": 0.624,
+      "pz": 1.678,
+      "szTop": 3.746,
+      "szBot": 1.645,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-2, 0 outs",
+      "note": "Caught the bottom of the zone by 1.8 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-09-03-3576",
+      "pitcher": "G. Soto",
+      "pitchType": "Sinker",
+      "velo": 96.7,
+      "px": -0.718,
+      "pz": 2.51,
+      "szTop": 3.378,
+      "szBot": 1.56,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the inside corner by 1.3 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-09-03-3596",
+      "pitcher": "J. Schreiber",
+      "pitchType": "Sweeper",
+      "velo": 82.1,
+      "px": 1.163,
+      "pz": 2.204,
+      "szTop": 3.182,
+      "szBot": 1.509,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-1, 0 outs",
+      "note": "Missed the outside corner by 4.0 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-09-03-2877",
+      "pitcher": "L. Varland",
+      "pitchType": "4-Seam Fastball",
+      "velo": 98.4,
+      "px": -0.343,
+      "pz": 3.784,
+      "szTop": 3.847,
+      "szBot": 1.924,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the top of the zone by 2.2 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-09-03-190",
+      "pitcher": "Z. Matthews",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.5,
+      "px": 0.498,
+      "pz": 1.133,
+      "szTop": 3.208,
+      "szBot": 1.431,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 2 outs",
+      "note": "Missed the bottom of the zone by 2.1 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    }
+  ]
+}
