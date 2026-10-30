@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-29",
+  "sourceGameDate": "2025-06-07",
+  "pitches": [
+    {
+      "id": "2025-06-07-3386",
+      "pitcher": "F. Bautista",
+      "pitchType": "Sinker",
+      "velo": 96.8,
+      "px": 0.962,
+      "pz": 2.974,
+      "szTop": 3.68,
+      "szBot": 1.793,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the inside corner by 1.6 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-06-07-765",
+      "pitcher": "R. Nelson",
+      "pitchType": "4-Seam Fastball",
+      "velo": 92.7,
+      "px": -0.555,
+      "pz": 3.396,
+      "szTop": 3.33,
+      "szBot": 1.572,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the top of the zone by 0.7 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-06-07-293",
+      "pitcher": "J. Quintana",
+      "pitchType": "Changeup",
+      "velo": 85.3,
+      "px": -0.299,
+      "pz": 1.629,
+      "szTop": 3.64,
+      "szBot": 1.641,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "2-1, 0 outs",
+      "note": "Caught the bottom of the zone by 1.3 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-06-07-4164",
+      "pitcher": "Y. De los Santos",
+      "pitchType": "Sinker",
+      "velo": 94.9,
+      "px": 0.598,
+      "pz": 3.411,
+      "szTop": 3.451,
+      "szBot": 1.622,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-1, 0 outs",
+      "note": "Caught the top of the zone by 1.9 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-06-07-1624",
+      "pitcher": "C. Holmes",
+      "pitchType": "Sinker",
+      "velo": 93.8,
+      "px": 0.968,
+      "pz": 1.715,
+      "szTop": 3.257,
+      "szBot": 1.565,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "2-1, 0 outs",
+      "note": "Missed the outside corner by 1.7 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    }
+  ]
+}
