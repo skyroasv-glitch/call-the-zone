@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-30",
+  "sourceGameDate": "2025-06-22",
+  "pitches": [
+    {
+      "id": "2025-06-22-2748",
+      "pitcher": "T. Kinley",
+      "pitchType": "Slider",
+      "velo": 87.6,
+      "px": -0.885,
+      "pz": 2.702,
+      "szTop": 3.249,
+      "szBot": 1.385,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-2, 2 outs",
+      "note": "Missed the outside corner by 0.7 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-06-22-82",
+      "pitcher": "C. Rea",
+      "pitchType": "Curveball",
+      "velo": 77.4,
+      "px": -0.176,
+      "pz": 3.528,
+      "szTop": 3.192,
+      "szBot": 1.404,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 1 out",
+      "note": "Missed the top of the zone by 2.6 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 2.4,
+        "curve": 0.5
+      }
+    },
+    {
+      "id": "2025-06-22-1896",
+      "pitcher": "R. Ray",
+      "pitchType": "Changeup",
+      "velo": 84.6,
+      "px": -0.208,
+      "pz": 1.301,
+      "szTop": 3.385,
+      "szBot": 1.551,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "1-1, 0 outs",
+      "note": "Missed the bottom of the zone by 1.5 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-06-22-201",
+      "pitcher": "W. Warren",
+      "pitchType": "Changeup",
+      "velo": 85.0,
+      "px": -1.152,
+      "pz": 2.755,
+      "szTop": 3.715,
+      "szBot": 1.697,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-1, 0 outs",
+      "note": "Missed the outside corner by 3.9 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-06-22-2225",
+      "pitcher": "B. Elder",
+      "pitchType": "Sinker",
+      "velo": 91.7,
+      "px": 0.917,
+      "pz": 1.649,
+      "szTop": 3.852,
+      "szBot": 1.707,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the outside corner by 1.1 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    }
+  ]
+}
