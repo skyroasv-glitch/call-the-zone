@@ -1,0 +1,101 @@
+{
+  "date": "2026-12-10",
+  "sourceGameDate": "2025-06-14",
+  "pitches": [
+    {
+      "id": "2025-06-14-2914",
+      "pitcher": "J. Adam",
+      "pitchType": "Changeup",
+      "velo": 88.7,
+      "px": -0.675,
+      "pz": 2.671,
+      "szTop": 3.609,
+      "szBot": 1.794,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 2 outs",
+      "note": "Caught the inside corner by 1.8 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-06-14-412",
+      "pitcher": "A. Pallante",
+      "pitchType": "4-Seam Fastball",
+      "velo": 93.9,
+      "px": 0.536,
+      "pz": 3.24,
+      "szTop": 3.251,
+      "szBot": 1.539,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "3-1, 0 outs",
+      "note": "Caught the top of the zone by 1.6 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-06-14-4024",
+      "pitcher": "J. Ryan",
+      "pitchType": "Sinker",
+      "velo": 93.8,
+      "px": 0.708,
+      "pz": 1.467,
+      "szTop": 3.466,
+      "szBot": 1.69,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "1-1, 0 outs",
+      "note": "Missed the bottom of the zone by 1.2 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 1.0,
+        "curve": -0.9
+      }
+    },
+    {
+      "id": "2025-06-14-3466",
+      "pitcher": "J. Ryan",
+      "pitchType": "Sweeper",
+      "velo": 80.8,
+      "px": 1.038,
+      "pz": 2.317,
+      "szTop": 3.18,
+      "szBot": 1.49,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Missed the outside corner by 2.5 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-06-14-2370",
+      "pitcher": "T. Anderson",
+      "pitchType": "Cutter",
+      "velo": 83.8,
+      "px": -0.049,
+      "pz": 1.277,
+      "szTop": 3.462,
+      "szBot": 1.598,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the bottom of the zone by 2.4 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.4,
+        "curve": -0.7
+      }
+    }
+  ]
+}
