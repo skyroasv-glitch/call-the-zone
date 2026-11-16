@@ -1,0 +1,101 @@
+{
+  "date": "2026-12-16",
+  "sourceGameDate": "2025-04-19",
+  "pitches": [
+    {
+      "id": "2025-04-19-3541",
+      "pitcher": "C. Thielbar",
+      "pitchType": "4-Seam Fastball",
+      "velo": 91.4,
+      "px": -0.129,
+      "pz": 1.457,
+      "szTop": 3.164,
+      "szBot": 1.434,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-0, 2 outs",
+      "note": "Caught the bottom of the zone by 1.7 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-04-19-3955",
+      "pitcher": "L. Weaver",
+      "pitchType": "Changeup",
+      "velo": 87.5,
+      "px": -0.443,
+      "pz": 1.078,
+      "szTop": 3.251,
+      "szBot": 1.459,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Missed the bottom of the zone by 3.1 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-04-19-4275",
+      "pitcher": "D. Williams",
+      "pitchType": "4-Seam Fastball",
+      "velo": 93.9,
+      "px": -0.627,
+      "pz": 3.557,
+      "szTop": 3.583,
+      "szBot": 1.629,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-1, 0 outs",
+      "note": "Caught the top of the zone by 1.8 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-04-19-696",
+      "pitcher": "S. Smith",
+      "pitchType": "Changeup",
+      "velo": 90.3,
+      "px": 1.08,
+      "pz": 1.199,
+      "szTop": 3.47,
+      "szBot": 1.577,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Missed the bottom of the zone by 3.1 in. Both had it a ball.",
+      "mv": {
+        "sag": 1.2,
+        "curve": 0.7
+      }
+    },
+    {
+      "id": "2025-04-19-4523",
+      "pitcher": "D. Williams",
+      "pitchType": "4-Seam Fastball",
+      "velo": 93.6,
+      "px": 0.081,
+      "pz": 3.286,
+      "szTop": 3.462,
+      "szBot": 1.441,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-0, 0 outs",
+      "note": "Caught the top of the zone by 3.6 in. Both had it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    }
+  ]
+}
