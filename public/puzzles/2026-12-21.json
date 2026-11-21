@@ -1,0 +1,101 @@
+{
+  "date": "2026-12-21",
+  "sourceGameDate": "2025-09-14",
+  "pitches": [
+    {
+      "id": "2025-09-14-3948",
+      "pitcher": "L. Davidson",
+      "pitchType": "Eephus",
+      "velo": 67.3,
+      "px": 0.158,
+      "pz": 1.779,
+      "szTop": 3.586,
+      "szBot": 1.746,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "1-2, 0 outs",
+      "note": "Caught the bottom of the zone by 1.8 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 0.0
+      }
+    },
+    {
+      "id": "2025-09-14-1674",
+      "pitcher": "A. Mazur",
+      "pitchType": "Slider",
+      "velo": 88.1,
+      "px": -0.589,
+      "pz": 2.481,
+      "szTop": 3.315,
+      "szBot": 1.58,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "strike",
+      "situation": "0-1, 2 outs",
+      "note": "Caught the outside corner by 2.9 in. Both had it a strike.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    },
+    {
+      "id": "2025-09-14-4155",
+      "pitcher": "J. Payamps",
+      "pitchType": "4-Seam Fastball",
+      "velo": 94.2,
+      "px": -0.717,
+      "pz": 3.656,
+      "szTop": 3.816,
+      "szBot": 1.821,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "0-0, 1 out",
+      "note": "Caught the inside corner by 1.3 in \u2014 the umpire called it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-09-14-1760",
+      "pitcher": "A. DeSclafani",
+      "pitchType": "Split-Finger",
+      "velo": 82.5,
+      "px": -0.593,
+      "pz": 1.863,
+      "szTop": 3.378,
+      "szBot": 1.682,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "2-0, 2 outs",
+      "note": "Caught the inside corner by 2.8 in. Both had it a strike.",
+      "mv": {
+        "sag": 1.6,
+        "curve": 0.4
+      }
+    },
+    {
+      "id": "2025-09-14-799",
+      "pitcher": "F. Valdez",
+      "pitchType": "Slider",
+      "velo": 87.6,
+      "px": -0.914,
+      "pz": 1.484,
+      "szTop": 3.61,
+      "szBot": 1.683,
+      "hand": "L",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-1, 0 outs",
+      "note": "Missed the outside corner by 1.0 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.7,
+        "curve": -1.4
+      }
+    }
+  ]
+}
