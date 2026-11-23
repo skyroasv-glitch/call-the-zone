@@ -1,0 +1,101 @@
+{
+  "date": "2026-12-23",
+  "sourceGameDate": "2025-07-12",
+  "pitches": [
+    {
+      "id": "2025-07-12-1843",
+      "pitcher": "G. Kirby",
+      "pitchType": "4-Seam Fastball",
+      "velo": 96.4,
+      "px": -1.005,
+      "pz": 3.687,
+      "szTop": 3.463,
+      "szBot": 1.513,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 2 outs",
+      "note": "Missed the outside corner by 2.1 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-12-2487",
+      "pitcher": "Y. Kikuchi",
+      "pitchType": "4-Seam Fastball",
+      "velo": 95.4,
+      "px": 1.085,
+      "pz": 3.337,
+      "szTop": 3.71,
+      "szBot": 1.575,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "ball",
+      "situation": "2-2, 0 outs",
+      "note": "Missed the outside corner by 3.1 in. Both had it a ball.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-12-2701",
+      "pitcher": "G. Kirby",
+      "pitchType": "Sweeper",
+      "velo": 88.2,
+      "px": -0.898,
+      "pz": 3.228,
+      "szTop": 3.17,
+      "szBot": 1.381,
+      "hand": "R",
+      "stand": "L",
+      "umpCall": "ball",
+      "situation": "0-0, 0 outs",
+      "note": "Missed the outside corner by 0.8 in. Both had it a ball.",
+      "mv": {
+        "sag": 0.6,
+        "curve": 2.1
+      }
+    },
+    {
+      "id": "2025-07-12-2602",
+      "pitcher": "A. Heaney",
+      "pitchType": "4-Seam Fastball",
+      "velo": 88.7,
+      "px": 1.055,
+      "pz": 2.914,
+      "szTop": 3.216,
+      "szBot": 1.523,
+      "hand": "L",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "1-0, 0 outs",
+      "note": "Missed the outside corner by 2.7 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": -0.35,
+        "curve": 0.3
+      }
+    },
+    {
+      "id": "2025-07-12-2670",
+      "pitcher": "P. Maton",
+      "pitchType": "Cutter",
+      "velo": 88.1,
+      "px": 0.913,
+      "pz": 2.003,
+      "szTop": 3.508,
+      "szBot": 1.577,
+      "hand": "R",
+      "stand": "R",
+      "umpCall": "strike",
+      "situation": "0-0, 1 out",
+      "note": "Missed the outside corner by 1.0 in \u2014 the umpire called it a strike.",
+      "mv": {
+        "sag": 0.4,
+        "curve": -0.7
+      }
+    }
+  ]
+}
